@@ -1,0 +1,362 @@
+<article>
+  <section>
+
+    <header class="project-title">
+      <h1><span>Everything is connected</span></h1>
+      <time>November 2016</time>
+    </header>
+
+    <section class="situation">
+      <p>
+        Many of the things in our homes connect to the internet, allowing us to control them with our phones via an app, to be part of an online community or to access content online.
+      </p>
+      <figure class="img-wide">
+        <img src="/Assets/Scout/100-connected.jpg" alt="LG’s announcemnet at CES that all of their devices will now be connected to the internet" />
+        <figcaption>
+          LG’s announcement at CES, photo by Karissa Bell
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="complication">
+      <h2>Everything’s sharing everything</h2>
+      <p>
+        Many of these devices have cameras and microphones, capturing highly personal information inside the home.
+      </p>
+
+      <p>
+      It’s not always clear that data is being captured, how that information
+      is used, or  who has access to it. This is often hidden inside
+      complicated terms and
+      conditions.
+      </p>
+      <aside>
+        <figure class="alt">
+          <img src="/Assets/Scout/image02.jpg" alt="A smart television with a Google terms and conditions dialog box" />
+          <figcaption>
+            Google terms and conditions dialog box
+          </figcaption>
+        </figure>
+      </aside>
+
+      <p>
+      For some devices, the manufacturer’s business model is selling personal information on to others
+
+       <em>“If you’re not the customer, you’re the product”</em>
+      </p>
+
+      <p>
+        Finally, many of these devices have security vulnerabilities, opening them up to attackers on the internet.
+      </p>
+    </section>
+
+    <section class="what-we-did">
+      <h2>We showed people problems in their home</h2>
+
+
+      <p>
+        We prototyped Scout, a service that monitors devices connected to a home wifi
+        network, and showed it to four people who use these kinds of devices in
+        their homes.
+      </p>
+
+      <figure class="img-wide">
+        <img src="/Assets/Scout/image01.png" alt="A fridge magnet that we imagined could alert the homeowner to new vulnerabilities on their network" />
+        <figcaption>
+          A fridge magnet could alert the homeowner to new vulnerabilities on their network
+        </figcaption>
+      </figure>
+
+      <p>
+        We showed them some potential vulnerabilities in a home network that was similar to their own. They saw how personal information was transferred to a third party company, allowed via a clause buried deep within a product’s terms and conditions.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="question">
+          How much do people understand about the risks of connected devices?
+        </h2>
+      <section class="answer">
+        <p>
+          Most of our participants had not thought about how secure or private the connection between their devices and the internet was.
+        </p>
+
+        <blockquote>
+          <p>
+            No I didn’t realise. It’s quite scary actually.
+          </p>
+          <footer>-
+            <cite>
+              M, male, 26-35 year old, owns Samsung smart tv, Tenvis security cameras, PlayStation
+          </cite>
+          </footer>
+        </blockquote>
+
+        <p>
+          Some knew there were risks, but not the specifics.
+        </p>
+
+        <blockquote>
+          <p>
+            More things are becoming connected to the internet. You hear more stories of people hacking into things, the more secure you can be the better.
+          </p>
+          <footer>-
+            <cite>
+              D, male, 26-35 year old, owns LG Smart TV, Playstation 3, Hive 2
+            </cite>
+          </footer>
+        </blockquote>
+
+      </section>
+    </section>
+
+      <figure class="img-wide alt">
+        <img src="/Assets/Scout/image06.png" alt="The digital product research team reviewing the research observations" />
+        <figcaption>
+          The team reviewing the research findings
+        </figcaption>
+      </figure>
+
+    <section>
+      <h2 class="question">Can we make security exploits visible and understandable?</h2>
+
+      <aside class="experiment-live">
+        <figure class="mobile-frame">
+          <h2>Try our experiment:</h2>
+          <div class="frame">
+            <div class="embed">
+              <iframe width="375" height="667" frameborder="0" src="https://scout-dashboard.digitalproductresearch.org.uk/1.html"></iframe>
+            </div>
+          </div>
+          <figcaption>
+            We built Scout to test whether we could help people understand security exploits
+          </figcaption>
+        </figure>
+
+      </aside>
+
+      <section class="answer">
+        <p>
+        When we showed them the Scout prototype, our participants immediately
+        understood the implications for their individual situation.
+        </p>
+
+        <blockquote>
+          <p>
+            It sounds like, when you’re sitting in a room with a smart TV, it could potentially be sent to a third party.
+          </p>
+          <footer>-
+            <cite>
+              M, male, 26-35 year old, owns Samsung smart tv, Tenvis security cameras, PlayStation
+          </cite>
+          </footer>
+
+        </blockquote>
+
+        <blockquote>
+          <p>
+          You could be buying something over the phone, doing your insurance, giving your credit card information to pay for your insurance. If someone has intercepted that, they could commit fraud on my account.
+          </p>
+          <footer>-
+            <cite>
+              M, male, 26-35 year old, owns Samsung smart tv, Tenvis security cameras, PlayStation
+          </cite>
+          </footer>
+
+        </blockquote>
+
+      </section>
+    </section>
+
+    <section>
+      <h2 class="question">
+          Would people “downgrade” their devices to make them more private?
+      </h2>
+
+      <section class="answer">
+
+        <p>
+          Despite our participants obvious discomfort at learning about the flaws
+          in devices they had bought, they weighed up their options and broadly
+          decided to take no action.
+        </p>
+
+        <p>
+          Cost was a factor; smart devices had been a significant outlay, and the
+          idea of reducing their functionality was not appealling.
+        </p>
+
+        <blockquote class="pull-quote">
+          <p>
+            <span>
+              &hellip;they weighed up their options and broadly
+              decided to take no action
+            </span>
+          </p>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            But again, if I’ve spent a lot of money on it. I don’t know if I would. I don’t know. Just stick to it and take the risk, potentially.
+          </p>
+          <footer>-
+            <cite>
+              M, male, 26-35 year old, owns Samsung smart tv, Tenvis security cameras, PlayStation
+          </cite>
+          </footer>
+
+        </blockquote>
+
+        <p>
+          Once informed, people were very good at balancing the risks against the
+          benefits they get from their devices.
+        </p>
+
+        <blockquote>
+          <p>
+            I wouldn’t take it back for a refund because he likes it too much. It’s like big brother. He feels safer with it.
+          </p>
+          <footer>-
+            <cite>
+              W, female, 26-36 year old, owns Samsung smart TV, Playstation 4, Hikvision security camera
+            </cite>
+          </footer>
+        </blockquote>
+
+
+      </section>
+    </section>
+
+    <section>
+      <h2 class="question">
+        Can we help people work together to influence
+        manufacturers?
+      </h2>
+
+      <section class="answer">
+        <p>
+        People were interested in the idea of lobbying manufacturers to change their practices through the service. We thought this might be a good way to link in with membership and the wider Co-op campaigning work.
+        </p>
+
+        <blockquote>
+          <p>
+            I would assume that the team behind Scout would contact British Gas that people aren’t happy about them sharing their data. I’d click on the join option.
+          </p>
+          <footer>-
+            <cite>
+              D, male, 26-35 year old, owns LG Smart TV, Playstation 3, Hive 2
+            </cite>
+          </footer>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            I would join 3865 people asking Samsung to change this.
+          </p>
+          <footer>-
+            <cite>
+              M, male, 26-35 year old, owns Samsung smart tv, Tenvis security cameras, PlayStation
+          </cite>
+          </footer>
+
+        </blockquote>
+      </section>
+    </section>
+
+    <section>
+
+      <section class="learning">
+
+        <h2>
+          There was a mistrust of companies
+        </h2>
+
+        <blockquote>
+          <p>
+            You don’t know who to believe. Samsung are saying they’re not breaking laws, this article is saying that it is.
+          </p>
+          <footer>-
+            <cite>
+              M, male, 26-35 year old, owns Samsung smart tv, Tenvis security cameras, PlayStation
+          </cite>
+          </footer>
+
+        </blockquote>
+        <blockquote>
+          <p>
+            But deep down they would probably do that [share data with third parties] anyway without asking permission.
+          </p>
+          <footer>-
+            <cite>
+              D, male, 26-35 year old, owns LG Smart TV, Playstation 3, Hive 2
+            </cite>
+          </footer>
+        </blockquote>
+
+      </section>
+
+      <section class="learning">
+
+        <h2>There was a clear difference between inside and outside the home</h2>
+
+          <blockquote>
+            <p>
+              My sister doesn’t use it all, she doesn’t like the idea of having cameras in the house.
+            </p>
+            <footer>-
+              <cite>
+                M, male, 26-35 year old, owns Samsung smart tv, Tenvis security cameras, PlayStation
+            </cite>
+            </footer>
+          </blockquote>
+
+          <blockquote>
+            <p>
+              If it’s purely that they can look at what’s on the CCTV, that’s only outside the house so that’s OK.
+            </p>
+            <footer>-
+              <cite>
+                W, female, 26-36 year old, owns Samsung smart TV, Playstation 4, Hikvision security camera
+              </cite>
+            </footer>
+          </blockquote>
+
+      </section>
+      <section class="learning">
+
+        <h2>People have a very individual view of what is private</h2>
+
+        <blockquote>
+          <p>
+            If you read out credit card details it would be a problem but normal conversations, not that bothered.
+          </p>
+          <footer>-
+            <cite>
+              D, male, 26-35 year old, owns LG Smart TV, Playstation 3, Hive 2
+            </cite>
+          </footer>
+        </blockquote>
+        <blockquote>
+          <p>
+            I did hear about this, smart TVs recording private conversations. It’s a bit Orwellian.
+          </p>
+          <p>
+            In principle I don’t think this is OK, even if they don’t do anything with it.
+          </p>
+          <p>
+            It doesn’t matter that much if people can see my photos.
+          </p>
+          <p>
+            If the government wanted to use it for a purpose that might make me think it’s OK but not just corporates.
+          </p>
+          <footer>-
+            <cite>
+              A, female, 26-35 year old, owns LG smart TV, Playstation 4 and XBox, BabyMoov wifi monitor
+            </cite>
+          </footer>
+        </blockquote>
+      </section>
+
+    </section>
+  </section>
+</article>

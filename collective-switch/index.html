@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <title>Collective switching | Digital Product Research</title>
+    <meta name="description" content="Could we do a motivate non-switchers to change to a green energy company? We built a prototype thing to find out.">
+    <meta name="author" content="Digital Product Research team at Co-op Digital">
+    <link href="../Assets/favicon.ico" rel="icon" type="image/ico" />
+    <link href="../stylesheets/site.css" rel="stylesheet" />
+    <script src="../javascripts/all.js"></script>
+  </head>
+
+  <body class="collective-switch collective-switch_index">
+    <header id="topnav">
+
+      <?xml version="1.0" encoding="UTF-8"?>
+      <svg id="coop-logo" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="coop-logo-shape" transform="translate(0.000000, -66.000000)" fill-rule="nonzero">
+                  <g transform="translate(0.000000, 66.000000)">
+                      <g id="logo-copy">
+                          <path d="M19.688057,6.83669609 C19.8975045,6.11727617 20,5.37137453 20,4.61223203 C20,3.85750315 19.8930481,3.10718789 19.688057,2.39218159 C19.416221,1.49180328 18.7522282,0.785624212 17.8698752,0.454602774 C17.0008913,0.154476671 16.0918004,0 15.1693405,0 C14.2468806,0 13.342246,0.154476671 12.473262,0.454602774 C11.5864528,0.790037831 10.9224599,1.4962169 10.6550802,2.39218159 C10.4456328,3.11601513 10.3386809,3.86633039 10.3386809,4.61664565 C10.3386809,5.36696091 10.4456328,6.11727617 10.6550802,6.84110971 C10.9224599,7.7370744 11.5864528,8.44325347 12.473262,8.77868852 C13.342246,9.07881463 14.2513369,9.2332913 15.1693405,9.2332913 C16.087344,9.2332913 16.9964349,9.07881463 17.8698752,8.77868852 C18.7566845,8.44325347 19.416221,7.7370744 19.688057,6.83669609 M17.0855615,4.61223203 C17.0855615,4.98297604 17.0276292,5.34489281 16.9206774,5.69356873 C16.7691622,6.16582598 16.3680927,6.52332913 15.8734403,6.61601513 C15.6461676,6.66015132 15.4099822,6.68221942 15.1737968,6.68221942 C14.9376114,6.68221942 14.701426,6.66015132 14.4741533,6.61601513 C13.9795009,6.51891551 13.5784314,6.16582598 13.4269162,5.69356873 C13.315508,5.34489281 13.2620321,4.98297604 13.2620321,4.61223203 C13.2620321,4.24148802 13.3199643,3.87515763 13.4269162,3.53089533 C13.5784314,3.05863808 13.9795009,2.70113493 14.4741533,2.60844893 C14.701426,2.56431274 14.9376114,2.54224464 15.1737968,2.54224464 C15.4144385,2.54224464 15.6461676,2.56431274 15.8734403,2.60844893 C16.3680927,2.70554855 16.7691622,3.05863808 16.9206774,3.53089533 C17.0276292,3.87957125 17.0855615,4.24590164 17.0855615,4.61223203 M9.34937611,16.7099622 C9.55882353,15.9905422 9.66131907,15.2446406 9.66131907,14.4854981 C9.66131907,13.7307692 9.5543672,12.980454 9.34937611,12.2654477 C9.07754011,11.3650694 8.41354724,10.6588903 7.5311943,10.3278689 C6.65775401,10.0277427 5.75311943,9.87326608 4.83065954,9.87326608 C3.90819964,9.87326608 3.00356506,10.0277427 2.13458111,10.3278689 C1.24777184,10.6588903 0.583778966,11.3650694 0.316399287,12.2654477 C0.106951872,12.9848676 0,13.7351828 0,14.4854981 C0,15.2358134 0.106951872,15.9861286 0.316399287,16.7099622 C0.583778966,17.6059269 1.24777184,18.3121059 2.13458111,18.647541 C3.00356506,18.9476671 3.91265597,19.1021438 4.83065954,19.1021438 C5.7486631,19.1021438 6.65775401,18.9476671 7.5311943,18.647541 C8.41354724,18.3121059 9.07754011,17.6059269 9.34937611,16.7099622 M6.74688057,14.4854981 C6.74688057,14.8562421 6.68894831,15.2181589 6.58199643,15.5668348 C6.43048128,16.0390921 6.02941176,16.3965952 5.53475936,16.4892812 C5.30748663,16.5334174 5.07130125,16.5554855 4.83511586,16.5554855 C4.59893048,16.5554855 4.3627451,16.5334174 4.13547237,16.4892812 C3.64081996,16.3921816 3.23975045,16.0390921 3.08823529,15.5668348 C2.97682709,15.2181589 2.92335116,14.8562421 2.92335116,14.4854981 C2.92335116,14.1147541 2.98128342,13.7484237 3.08823529,13.4041614 C3.23975045,12.9319042 3.64081996,12.574401 4.13547237,12.481715 C4.3627451,12.4375788 4.59893048,12.4155107 4.83511586,12.4155107 C5.07130125,12.4155107 5.30748663,12.4375788 5.53475936,12.481715 C6.02941176,12.5788146 6.43048128,12.9319042 6.58199643,13.4041614 C6.68894831,13.7528373 6.74688057,14.1147541 6.74688057,14.4854981 M6.74688057,4.59457755 L9.6657754,4.59457755 C9.6657754,3.8442623 9.55882353,3.10277427 9.35383244,2.38776797 C9.08199643,1.48738966 8.41800357,0.781210593 7.53565062,0.450189155 C6.65775401,0.154476671 5.75311943,0 4.83065954,0 C3.90819964,0 3.00356506,0.154476671 2.13458111,0.454602774 C1.24777184,0.785624212 0.583778966,1.49180328 0.316399287,2.39218159 C0.106951872,3.11601513 0,3.86191677 0,4.61223203 C0,5.36254729 0.106951872,6.11286255 0.316399287,6.83669609 C0.583778966,7.73266078 1.24777184,8.43883985 2.13458111,8.77427491 C3.00356506,9.07440101 3.91265597,9.22887768 4.83065954,9.22887768 C5.7486631,9.22887768 6.65775401,9.07440101 7.5311943,8.77427491 C8.41354724,8.44325347 9.07754011,7.7370744 9.34937611,6.83669609 C9.38502674,6.71311475 9.41622103,6.58953342 9.44741533,6.46153846 L6.69786096,5.19041614 C6.67112299,5.36254729 6.63101604,5.53026482 6.57754011,5.69356873 C6.42602496,6.16582598 6.02495544,6.52332913 5.53030303,6.61601513 C5.3030303,6.66015132 5.06684492,6.68221942 4.83065954,6.68221942 C4.59447415,6.68221942 4.35828877,6.66015132 4.13101604,6.61601513 C3.63636364,6.51891551 3.23529412,6.16582598 3.08377897,5.69356873 C2.97237077,5.34489281 2.91889483,4.98297604 2.91889483,4.61223203 C2.91889483,4.24148802 2.97682709,3.87515763 3.08377897,3.53089533 C3.23529412,3.05863808 3.63636364,2.70113493 4.13101604,2.60844893 C4.35828877,2.56431274 4.59447415,2.54224464 4.83065954,2.54224464 C5.06684492,2.54224464 5.3030303,2.56431274 5.53030303,2.60844893 C6.02495544,2.70554855 6.42602496,3.05863808 6.57754011,3.53089533 C6.68894831,3.87515763 6.74242424,4.23266078 6.74688057,4.59457755 M10.6550802,12.261034 C10.4456328,12.9848676 10.3386809,13.7351828 10.3386809,14.4854981 L10.3386809,21 L13.2575758,21 L13.2575758,14.4854981 C13.2575758,14.1147541 13.315508,13.7484237 13.4224599,13.4041614 C13.573975,12.9319042 13.9750446,12.574401 14.469697,12.481715 C14.6969697,12.4375788 14.9331551,12.4155107 15.1693405,12.4155107 C15.4099822,12.4155107 15.6417112,12.4375788 15.868984,12.481715 C16.3636364,12.5788146 16.7647059,12.9319042 16.916221,13.4041614 C17.0276292,13.7528373 17.0811052,14.1191677 17.0811052,14.4854981 C17.0811052,14.8562421 17.0231729,15.2181589 16.916221,15.5668348 C16.7647059,16.0390921 16.3636364,16.3965952 15.868984,16.4892812 C15.6417112,16.5334174 15.4055258,16.5554855 15.1693405,16.5554855 C14.9331551,16.5554855 14.6969697,16.5334174 14.469697,16.4892812 C14.3716578,16.4716267 14.2825312,16.4407314 14.1934046,16.4054224 L15.1827094,19.0977301 C16.0962567,19.0977301 17.0008913,18.9432535 17.8698752,18.6431274 C18.7522282,18.3121059 19.416221,17.6059269 19.688057,16.7055485 C19.8975045,15.9861286 20,15.240227 20,14.4810845 C20,13.7263556 19.8930481,12.9760404 19.688057,12.2566204 C19.416221,11.3562421 18.7522282,10.6500631 17.8698752,10.3190416 C16.9964349,10.0189155 16.0918004,9.86443884 15.1693405,9.86443884 C14.2468806,9.86443884 13.342246,10.0189155 12.473262,10.3190416 C11.5864528,10.6588903 10.9224599,11.3650694 10.6550802,12.261034" id="XMLID_8_"></path>
+                      </g>
+                  </g>
+              </g>
+          </g>
+      </svg>
+
+      <a href="../">Digital Product Research</a><span>We’re a team at Co-op Digital and this is the archive of our experiments&hellip; <a href="../about/">Read more</a></span>
+      <nav>
+        <span class='arrow-left'>&larr;</span>
+        <span class='arrow-right'>&rarr;</span>
+      </nav>
+    </header>
+    <article>
+  <section>
+
+    <header class="project-title">
+      <h1><span>Collective switching for good</span></h1>
+      <time>June 2017</time>
+    </header>
+
+    <section class="situation">
+      <p>
+        Around half of us have never switched energy company. Most non-switchers are with one of the ‘big six’ energy companies, paying more for power from oil, coal or fracked gas. Could we motivate non-switchers to switch to do good instead of profit?
+      </p>
+    </section>
+
+    <section class="complication">
+      <h2>
+        Switchers and non-switchers
+      </h2>
+      <p>
+        Why do people switch? And why do so many people not switch? For people who do switch, it’s about price, which you’d expect.
+      </p>
+
+      <aside>
+        <figure>
+          <img src="../Assets/Collective_switch/ofgem-tweet.png" alt="Tweet from Ofgem excouraging people to switch and save" />
+        <figcaption>
+          Ofgem are keen to encourage people to switch energy companies
+        </figcaption>
+        </figure>
+      </aside>
+
+      <p>
+        People who haven’t switched are much more interesting - knowing that they’re overpaying doesn’t make them switch.
+      </p>
+      <p>
+        Non-switchers don’t see much benefit of switching, and they perceive that researching, understanding and switching takes a lot of effort. True, the mechanics of switching is easy, but they’re right that it requires a level of commitment to learn to understand energy companies well enough to make a decent comparison.
+      </p>
+
+      <aside>
+        <figure>
+          <img src="../Assets/Collective_switch/green-tariff.png" alt="Details of an ethical pricing policy - one tariff at the same price" />
+        <figcaption>
+          Small, green energy companies offer a good tariff that stays good
+        </figcaption>
+        </figure>
+      </aside>
+
+      <p>
+        15% of people switch often - every year - but the rest don’t. Small, green energy companies have used this insight: most people just don’t want to bother switching regularly - so these companies give them a good tariff that stays good, and don’t hike the price after a year.
+      </p>
+
+    </section>
+
+    <blockquote class="pull-quote">
+      <p>
+        <span>
+          Non-switchers come from all backgrounds - your income or status won’t affect how likely you are to switch or not switch
+        </span>
+      </p>
+    </blockquote>
+
+    <section class="what-we-did">
+      <h2>
+        A community-benefit approach to switching
+      </h2>
+      <p>
+        With that in mind - price doesn’t appear to influence non-switchers, they don’t see the benefit, and they expect it to be really difficult - we tried out a different approach.
+      </p>
+      <p>
+        We tested working with schools to try and encourage non-switching (grand)parents to switch to green energy - not to save money, but to raise money for their school.
+      </p>
+
+      <ul>
+        <li>
+          school raise funds from the commission on every switch
+        </li>
+        <li>
+          families help the school
+        </li>
+        <li>
+          Co-op takes part of the commission
+        </li>
+      </ul>
+
+      <h2>
+        Our two big assumptions
+      </h2>
+      <p>
+        <strong>1. There’s value for the schools to recruit parents.</strong> We emailed 50 schools and 25 parent teacher associations inviting them to raise money with us. We tracked the emails and could see around half the emails being opened, but didn’t hear back from any. Granted, it was nearing the end of term, and many of the email addresses where generic, but it didn’t look promising.
+      </p>
+
+      <p>
+        <strong>2. Helping a school is compelling enough to make people switch.</strong> We also spoke to five parents of school children about their attitudes towards their energy providers. It was a chance to learn about them and what’s stopped them switching in the past.
+      </p>
+
+      <aside class="experiment-live">
+        <figure class="mobile-frame">
+          <h2>Try our experiment:</h2>
+          <div class="frame">
+            <div class="embed">
+              <iframe width="375" height="667" frameborder="0" src="https://dpr.coop.co.uk/hanover"></iframe>
+            </div>
+          </div>
+          <figcaption>
+            We built a prototype fundraising page to test whether families would switch to a green energy company to raise money for their school
+          </figcaption>
+        </figure>
+      </aside>
+
+    </section>
+
+    <section class="learning">
+      <h2>
+        Everyone thought switching would be a hassle
+      </h2>
+      <p>
+        And rightly so. Some companies can be slow to pay out if you leave in credit.
+      </p>
+      <blockquote>
+        <p>
+          I’ve just got it in me head that it would be a bit of a faff.
+        </p>
+        <p>
+          Obviously you could be in debit, having to owe British Gas, before you even with go with a new supplier.
+        </p>
+        <footer>-
+          <cite>
+            S, male, 51, never switched from British Gas
+          </cite>
+        </footer>
+      </blockquote>
+      <blockquote>
+        <p>
+          It just gives me shudders. I just think it would be a nightmare.
+        </p>
+        <footer>-
+          <cite>
+            S, female, 41, never switched from Scottish Power and British Gas
+          </cite>
+        </footer>
+      </blockquote>
+      <blockquote>
+        <p>
+          You remember the old days when you moved phone, you ended up on hold for ages, it was a faff.
+        </p>
+        <footer>-
+          <cite>
+            D, male, 35, never switched from Scottish Power
+        </cite>
+        </footer>
+      </blockquote>
+
+      <h2>
+          ‘Much of a muchness’
+      </h2>
+
+      <p>
+        There was little differentiation between the various energy suppliers, and less hatred of the big six than our previous research suggested. Generally if people were with one of the big six, and they hadn’t had a problem with them, they trusted them.
+      </p>
+      <blockquote>
+        <p>
+          I think it’s easier just to go with British Gas and negotiate. That’s what I’ve always done.
+        </p>
+        <footer>-
+          <cite>
+            S, male, 51, never switched from British Gas
+        </cite>
+        </footer>
+      </blockquote>
+      <blockquote>
+        <p>
+          I’ll go with Eon. We have been with British Gas. This is just because it’s familiar rather than actually being&hellip;
+        </p>
+        <footer>-
+          <cite>
+            N, female, 37, switched to Eon 8 years ago
+        </cite>
+        </footer>
+      </blockquote>
+
+      <h2>
+          People were content to be overpaying
+      </h2>
+      <p>
+        It reminded us that we’re not all rational economic actors. Despite knowing there was cash to be had, these individuals were not motivated to take action.
+      </p>
+      <blockquote>
+        <p>
+          Scottish Power were the providers when we got there. I seem to remember I had a look at the time and I couldn’t be bothered to look any further.
+        </p>
+        <footer>-
+          <cite>
+            D, male, 35, never switched from Scottish Power
+        </cite>
+        </footer>
+      </blockquote>
+      <blockquote>
+        <p>
+          It is yeah but it’s the reward ratio, how much I’d have do. I’m lazy.</p>
+        <footer>-
+          <cite>
+            D, male, 35, never switched from Scottish Power
+        </cite>
+        </footer>
+      </blockquote>
+      <blockquote>
+        <p>
+          I’ve no doubt we could get it cheaper.
+        </p>
+        <footer>-
+          <cite>
+            N, female, 37, switched to Eon 8 years ago
+        </cite>
+        </footer>
+      </blockquote>
+
+      <figure class="img-wide">
+        <img src="../Assets/Collective_switch/user-research.JPG" alt="Photo of an interview in a user research lab" />
+        <figcaption>
+          We spoke to five parents who had never switched energy company
+        </figcaption>
+      </figure>
+
+      <h2>
+        Switching for a school was more appealing to the individuals
+      </h2>
+      <p>
+        Take this with a pinch of salt, we’d paid them an incentive for the research. The real test would be to get a fundraising campaign up and running. That said, all the participants thought this idea sounded good.
+      </p>
+      <blockquote>
+        <p>
+          I’d probably be a bit more inclined to do that then take the £25 myself.
+        </p>
+        <footer>-
+          <cite>
+            D, male, 35, never switched from Scottish Power
+          </cite>
+        </footer>
+      </blockquote>
+
+      <blockquote>
+        <p>
+          I think it’s telling you, change and we’ll help raise money for your school.
+        </p>
+        <footer>-
+          <cite>
+            N, female, 37, switched to Eon 8 years ago
+        </cite>
+        </footer>
+      </blockquote>
+      <p>
+        One participant told us how their school raises money in a similar way. For every online purchase a family makes, the school gets a bit of cash. Interesting.
+      </p>
+      <blockquote>
+        <p>
+          It’s a really good idea. We do something similar at the moment. If you shop online, you go through a certain platform and the school gets money. It’s heavily used.
+        </p>
+        <p>
+          I reckon half of the 90 sets of parents used it. It was a success.
+        </p>
+        <footer>-
+          <cite>
+            N, female, 37, switched to Eon 8 years ago
+        </cite>
+        </footer>
+      </blockquote>
+
+        <h2>
+          Good first impressions of Ecotricity and Good Energy
+        </h2>
+        <p>
+          While no one had heard of a green energy supplier, when they had a look at their websites, everyone was impressed. One person loved the idea of the energy coming from 100% renewables. Given they were currently all on standard variable tariffs, switching would also save them money.
+        </p>
+        <blockquote>
+          <p>
+            Ecotricity: I like the name. It makes me think it’s not all coal fuelled.          </p>
+          <footer>-
+            <cite>
+              D, male, 35, never switched from Scottish Power
+          </cite>
+          </footer>
+        </blockquote>
+
+        <h2>
+          They wanted someone to do it for them
+        </h2>
+        <p>
+           It was clear the perceived nightmare of switching was the biggest blocker.
+        </p>
+        <blockquote>
+          <p>
+            If someone physically put it in front of me and said we’d do it for you.
+          </p>
+          <p>
+            I would be happy to switch providers if someone could do everything for me. Literally take it all for me.
+          </p>
+          <p>
+            &hellip;it needs to be like, do it for me.
+          </p>
+          <footer>-
+            <cite>
+              N, female, 37, switched to Eon 8 years ago
+            </cite>
+          </footer>
+        </blockquote>
+        <blockquote>
+          <p>
+            I want you to say - [S], I know who your energy provider is now, it’s just going to change, nothing else will change.
+          </p>
+          <p>
+            I worry that I’d have to spend 10 hours on the phone to sort it out.
+          </p>
+          <p>
+            I just think my time is precious. It’s just going to be a ball ache.
+          </p>
+          <p>
+            Like will they ask for things like how many kilowatts&hellip; units of energy&hellip; how many… how much you pay exactly.
+          </p>
+          <footer>-
+            <cite>
+              S, female, 41, never switched from Scottish Power and British Gas
+          </cite>
+          </footer>
+        </blockquote>
+    </section>
+  </section>
+</article>
+
+
+<section class="methods">
+  <div>
+    <h1>How we ran this experiment</h1>
+    <h2>One-to-one interviews with potential users</h2>
+<p>
+   We only have a few days to organise interviews, which means we have to use the quickest way to find relevant people to talk to. We use social media and our professional and social networks to carry out highly targeted recruitment to find people who closely represent our target audience.
+</p>
+<p>
+   We observe and record our interviews, taking care to remove any details that would identify the participants. Everyone involved signs a participant agreement and we give vouchers to the people who take part as a thank-you for their time.
+</p>
+<p>
+    We use active listening techniques to get deeper insights into the reasons behind comments that people make. We have learnt a lot from experts in Co-op Digital such as <a href="http://trvrs.co/book">Andrew Travers</a> and <a href="https://digitalblog.coop.co.uk/2017/03/09/small-is-beautiful-user-research-and-sample-sizes/">James Boardwell</a> that have helped us get the most from these interviews, thank you.
+</p>
+
+  </div>
+</section>
+
+<section class="what-next">
+  <section class="further-reading">
+    <h1>Further reading</h1>
+    <ul>
+      <li>
+        Create your own campaign to get people to switch to green energy - take a look at  <a href="https://github.com/coopdigital/dpr-collective-switch">our project on GitHub</a>
+      </li>
+      <li>
+        <a href="http://www.eprg.group.cam.ac.uk/wp-content/uploads/2015/09/1515-PDF.pdf" target="_blank">Why Do More British Consumers Not Switch Energy Suppliers? The Role of Individual Attitudes</a>[PDF]
+      </li>
+      <li>
+        <a href="http://www.bbc.co.uk/news/magazine-14989860" target="_blank">Energy switching: Why the customer inertia?</a>
+      </li>
+      <li>
+        <a href="http://www.bbc.co.uk/news/education-40344057" target="_blank">Heads warn parents of 'cash-starved schools'</a>
+      </li>
+      <li>
+        <a href="hhttps://www.easyfundraising.org.uk/retailer/good-energy/" target="_blank">Raise up to £25.00 donation for your favourite charity or good cause by shopping with Good Energy via easyfundraising.org.uk</a>
+      </li>
+      <li>
+        <a href="https://www.energyswitchguarantee.com/" target="_blank">Energy Switch Guarantee</a>
+      </li>
+
+    </ul>
+  </section>
+  <section class="related-project">
+    <h1>
+      Related experiments
+    </h1>
+    <h2>We believe technology should work for people and communities, not against them
+</h2>
+    <ul>
+      <li>
+        <a href="../shared-energy/">Cheaper, greener energy through smart behaviour</a>
+      </li>
+    </ul>
+  </section>
+  </section>
+
+    <div id="wip">This is a work in progress: <a href="https://docs.google.com/a/coopdigital.co.uk/forms/d/e/1FAIpQLSeD4Fbz0-RI8ltn_cuP7Xrcce4gr5hAEn0saGV_ELoAvL3oQw/viewform?usp=sf_link" target="_blank">Give feedback</a></div>
+  </body>
+</html>

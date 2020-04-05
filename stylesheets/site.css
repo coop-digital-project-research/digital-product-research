@@ -1,0 +1,1240 @@
+@charset "UTF-8";
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+template,
+[hidden] {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+a:active,
+a:hover {
+  outline-width: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+optgroup {
+  font-weight: bold; }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+@media screen and (min-width: 767px) {
+  body.index #project-shared-energy > a:after {
+    background: linear-gradient(180deg, rgba(17, 126, 128, 0), #117e80, #117e80); }
+  body.index #project-shared-energy > a:hover:after {
+    background: linear-gradient(180deg, rgba(15, 108, 110, 0), #0f6c6e, #0f6c6e); }
+  body.index #project-shared-energy > a:hover > article {
+    background: #0f6c6e; } }
+body.index #project-shared-energy > a > article {
+  background: #117e80; }
+  body.index #project-shared-energy > a > article header.project-title h1 span {
+    background: #083c3c; }
+  body.index #project-shared-energy > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #0b5253; }
+body.shared-energy_index {
+  background: #0f6c6e; }
+  body.shared-energy_index header#topnav {
+    background: #0b5253; }
+    body.shared-energy_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #17aaad; }
+  body.shared-energy_index header.project-title h1 span {
+    background: #083c3c; }
+  body.shared-energy_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #0b5253; }
+  body.shared-energy_index > article, body.shared-energy_index > section > div {
+    background: #117e80; }
+  body.shared-energy_index > section.what-next {
+    background: #083c3c; }
+  body.shared-energy_index blockquote.pull-quote span {
+    background: #0b5253; }
+
+@media screen and (min-width: 767px) {
+  body.index #project-financial-freedom > a:after {
+    background: linear-gradient(180deg, rgba(159, 77, 115, 0), #9f4d73, #9f4d73); }
+  body.index #project-financial-freedom > a:hover:after {
+    background: linear-gradient(180deg, rgba(145, 70, 105, 0), #914669, #914669); }
+  body.index #project-financial-freedom > a:hover > article {
+    background: #914669; } }
+body.index #project-financial-freedom > a > article {
+  background: #9f4d73; }
+  body.index #project-financial-freedom > a > article header.project-title h1 span {
+    background: #6b344e; }
+  body.index #project-financial-freedom > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #7d3c5a; }
+body.financial-freedom_index {
+  background: #914669; }
+  body.financial-freedom_index header#topnav {
+    background: #7d3c5a; }
+    body.financial-freedom_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #b6698d; }
+  body.financial-freedom_index header.project-title h1 span {
+    background: #6b344e; }
+  body.financial-freedom_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #7d3c5a; }
+  body.financial-freedom_index > article, body.financial-freedom_index > section > div {
+    background: #9f4d73; }
+  body.financial-freedom_index > section.what-next {
+    background: #6b344e; }
+  body.financial-freedom_index blockquote.pull-quote span {
+    background: #7d3c5a; }
+
+@media screen and (min-width: 767px) {
+  body.index #project-life-after-work > a:after {
+    background: linear-gradient(180deg, rgba(75, 37, 116, 0), #4B2574, #4B2574); }
+  body.index #project-life-after-work > a:hover:after {
+    background: linear-gradient(180deg, rgba(65, 32, 101, 0), #412065, #412065); }
+  body.index #project-life-after-work > a:hover > article {
+    background: #412065; } }
+body.index #project-life-after-work > a > article {
+  background: #4B2574; }
+  body.index #project-life-after-work > a > article header.project-title h1 span {
+    background: #26133a; }
+  body.index #project-life-after-work > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #32194d; }
+body.after-work_index {
+  background: #412065; }
+  body.after-work_index header#topnav {
+    background: #32194d; }
+    body.after-work_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #64319b; }
+  body.after-work_index header.project-title h1 span {
+    background: #26133a; }
+  body.after-work_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #32194d; }
+  body.after-work_index > article, body.after-work_index > section > div {
+    background: #4B2574; }
+  body.after-work_index > section.what-next {
+    background: #26133a; }
+  body.after-work_index blockquote.pull-quote span {
+    background: #32194d; }
+
+@media screen and (min-width: 767px) {
+  body.index #project-protect-together > a:after {
+    background: linear-gradient(180deg, rgba(28, 59, 107, 0), #1c3b6b, #1c3b6b); }
+  body.index #project-protect-together > a:hover:after {
+    background: linear-gradient(180deg, rgba(24, 50, 91, 0), #18325b, #18325b); }
+  body.index #project-protect-together > a:hover > article {
+    background: #18325b; } }
+body.index #project-protect-together > a > article {
+  background: #1c3b6b; }
+  body.index #project-protect-together > a > article header.project-title h1 span {
+    background: #0c1a2e; }
+  body.index #project-protect-together > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #112543; }
+body.group-trust_index {
+  background: #18325b; }
+  body.group-trust_index header#topnav {
+    background: #112543; }
+    body.group-trust_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #275193; }
+  body.group-trust_index header.project-title h1 span {
+    background: #0c1a2e; }
+  body.group-trust_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #112543; }
+  body.group-trust_index > article, body.group-trust_index > section > div {
+    background: #1c3b6b; }
+  body.group-trust_index > section.what-next {
+    background: #0c1a2e; }
+  body.group-trust_index blockquote.pull-quote span {
+    background: #112543; }
+
+@media screen and (min-width: 767px) {
+  body.index #project-terms-reviewers > a:after {
+    background: linear-gradient(180deg, rgba(64, 106, 145, 0), #406A91, #406A91); }
+  body.index #project-terms-reviewers > a:hover:after {
+    background: linear-gradient(180deg, rgba(58, 96, 131, 0), #3a6083, #3a6083); }
+  body.index #project-terms-reviewers > a:hover > article {
+    background: #3a6083; } }
+body.index #project-terms-reviewers > a > article {
+  background: #406A91; }
+  body.index #project-terms-reviewers > a > article header.project-title h1 span {
+    background: #29435c; }
+  body.index #project-terms-reviewers > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #30506e; }
+body.terms_index {
+  background: #3a6083; }
+  body.terms_index header#topnav {
+    background: #30506e; }
+    body.terms_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #5284b2; }
+  body.terms_index header.project-title h1 span {
+    background: #29435c; }
+  body.terms_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #30506e; }
+  body.terms_index > article, body.terms_index > section > div {
+    background: #406A91; }
+  body.terms_index > section.what-next {
+    background: #29435c; }
+  body.terms_index blockquote.pull-quote span {
+    background: #30506e; }
+
+@media screen and (min-width: 767px) {
+  body.index #project-connected-devices > a:after {
+    background: linear-gradient(180deg, rgba(46, 72, 52, 0), #2E4834, #2E4834); }
+  body.index #project-connected-devices > a:hover:after {
+    background: linear-gradient(180deg, rgba(38, 60, 43, 0), #263c2b, #263c2b); }
+  body.index #project-connected-devices > a:hover > article {
+    background: #263c2b; } }
+body.index #project-connected-devices > a > article {
+  background: #2E4834; }
+  body.index #project-connected-devices > a > article header.project-title h1 span {
+    background: #101912; }
+  body.index #project-connected-devices > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #1a291e; }
+body.connected_index {
+  background: #263c2b; }
+  body.connected_index header#topnav {
+    background: #1a291e; }
+    body.connected_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #42674a; }
+  body.connected_index header.project-title h1 span {
+    background: #101912; }
+  body.connected_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #1a291e; }
+  body.connected_index > article, body.connected_index > section > div {
+    background: #2E4834; }
+  body.connected_index > section.what-next {
+    background: #101912; }
+  body.connected_index blockquote.pull-quote span {
+    background: #1a291e; }
+
+@media screen and (min-width: 767px) {
+  body.index #project-connected-devices > a:after {
+    background: linear-gradient(180deg, rgba(46, 72, 52, 0), #2E4834, #2E4834); }
+  body.index #project-connected-devices > a:hover:after {
+    background: linear-gradient(180deg, rgba(38, 60, 43, 0), #263c2b, #263c2b); }
+  body.index #project-connected-devices > a:hover > article {
+    background: #263c2b; } }
+body.index #project-connected-devices > a > article {
+  background: #2E4834; }
+  body.index #project-connected-devices > a > article header.project-title h1 span {
+    background: #101912; }
+  body.index #project-connected-devices > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #1a291e; }
+body.connected_index {
+  background: #263c2b; }
+  body.connected_index header#topnav {
+    background: #1a291e; }
+    body.connected_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #42674a; }
+  body.connected_index header.project-title h1 span {
+    background: #101912; }
+  body.connected_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #1a291e; }
+  body.connected_index > article, body.connected_index > section > div {
+    background: #2E4834; }
+  body.connected_index > section.what-next {
+    background: #101912; }
+  body.connected_index blockquote.pull-quote span {
+    background: #1a291e; }
+
+@media screen and (min-width: 767px) {
+  body.index #project-locally > a:after {
+    background: linear-gradient(180deg, rgba(158, 55, 5, 0), #9e3705, #9e3705); }
+  body.index #project-locally > a:hover:after {
+    background: linear-gradient(180deg, rgba(138, 48, 4, 0), #8a3004, #8a3004); }
+  body.index #project-locally > a:hover > article {
+    background: #8a3004; } }
+body.index #project-locally > a > article {
+  background: #9e3705; }
+  body.index #project-locally > a > article header.project-title h1 span {
+    background: #541d03; }
+  body.index #project-locally > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #6d2603; }
+body.locally_index {
+  background: #8a3004; }
+  body.locally_index header#topnav {
+    background: #6d2603; }
+    body.locally_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #cf4807; }
+  body.locally_index header.project-title h1 span {
+    background: #541d03; }
+  body.locally_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #6d2603; }
+  body.locally_index > article, body.locally_index > section > div {
+    background: #9e3705; }
+  body.locally_index > section.what-next {
+    background: #541d03; }
+  body.locally_index blockquote.pull-quote span {
+    background: #6d2603; }
+
+@media screen and (min-width: 767px) {
+  body.index #project-washing-service > a:after {
+    background: linear-gradient(180deg, rgba(97, 15, 26, 0), #610F1A, #610F1A); }
+  body.index #project-washing-service > a:hover:after {
+    background: linear-gradient(180deg, rgba(79, 12, 21, 0), #4f0c15, #4f0c15); }
+  body.index #project-washing-service > a:hover > article {
+    background: #4f0c15; } }
+body.index #project-washing-service > a > article {
+  background: #610F1A; }
+  body.index #project-washing-service > a > article header.project-title h1 span {
+    background: #1f0508; }
+  body.index #project-washing-service > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #35080e; }
+body.washing-service_index {
+  background: #4f0c15; }
+  body.washing-service_index header#topnav {
+    background: #35080e; }
+    body.washing-service_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #8d1626; }
+  body.washing-service_index header.project-title h1 span {
+    background: #1f0508; }
+  body.washing-service_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #35080e; }
+  body.washing-service_index > article, body.washing-service_index > section > div {
+    background: #610F1A; }
+  body.washing-service_index > section.what-next {
+    background: #1f0508; }
+  body.washing-service_index blockquote.pull-quote span {
+    background: #35080e; }
+
+@media screen and (min-width: 767px) {
+  body.index #project-safer-emails > a:after {
+    background: linear-gradient(180deg, rgba(64, 106, 145, 0), #406A91, #406A91); }
+  body.index #project-safer-emails > a:hover:after {
+    background: linear-gradient(180deg, rgba(58, 96, 131, 0), #3a6083, #3a6083); }
+  body.index #project-safer-emails > a:hover > article {
+    background: #3a6083; } }
+body.index #project-safer-emails > a > article {
+  background: #406A91; }
+  body.index #project-safer-emails > a > article header.project-title h1 span {
+    background: #29435c; }
+  body.index #project-safer-emails > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #30506e; }
+body.safer-emails_index {
+  background: #3a6083; }
+  body.safer-emails_index header#topnav {
+    background: #30506e; }
+    body.safer-emails_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #5284b2; }
+  body.safer-emails_index header.project-title h1 span {
+    background: #29435c; }
+  body.safer-emails_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #30506e; }
+  body.safer-emails_index > article, body.safer-emails_index > section > div {
+    background: #406A91; }
+  body.safer-emails_index > section.what-next {
+    background: #29435c; }
+  body.safer-emails_index blockquote.pull-quote span {
+    background: #30506e; }
+
+@media screen and (min-width: 767px) {
+  body.index #project-collective-switch > a:after {
+    background: linear-gradient(180deg, rgba(158, 55, 5, 0), #9e3705, #9e3705); }
+  body.index #project-collective-switch > a:hover:after {
+    background: linear-gradient(180deg, rgba(138, 48, 4, 0), #8a3004, #8a3004); }
+  body.index #project-collective-switch > a:hover > article {
+    background: #8a3004; } }
+body.index #project-collective-switch > a > article {
+  background: #9e3705; }
+  body.index #project-collective-switch > a > article header.project-title h1 span {
+    background: #541d03; }
+  body.index #project-collective-switch > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #6d2603; }
+body.collective-switch_index {
+  background: #8a3004; }
+  body.collective-switch_index header#topnav {
+    background: #6d2603; }
+    body.collective-switch_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #cf4807; }
+  body.collective-switch_index header.project-title h1 span {
+    background: #541d03; }
+  body.collective-switch_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #6d2603; }
+  body.collective-switch_index > article, body.collective-switch_index > section > div {
+    background: #9e3705; }
+  body.collective-switch_index > section.what-next {
+    background: #541d03; }
+  body.collective-switch_index blockquote.pull-quote span {
+    background: #6d2603; }
+
+@font-face {
+  font-family: 'AvenirNextLTW01-Regular';
+  src: url("../fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
+  src: url("../fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix") format("eot"), url("/fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"), url("../fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff"), url("../fonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf") format("truetype"), url("../fonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f") format("svg"); }
+@font-face {
+  font-family: "AvenirNextLTW01-Medium";
+  src: url("../fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix");
+  src: url("../fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix") format("eot"), url("/fonts/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2") format("woff2"), url("../fonts/f26faddb-86cc-4477-a253-1e1287684336.woff") format("woff"), url("../fonts/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf") format("truetype"), url("../fonts/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80") format("svg"); }
+@font-face {
+  font-family: 'AvenirNextLTW01-Italic';
+  src: url("../fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix");
+  src: url("../fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix") format("eot"), url("/fonts/7377dbe6-f11a-4a05-b33c-bc8ce1f60f84.woff2") format("woff2"), url("../fonts/92b66dbd-4201-4ac2-a605-4d4ffc8705cc.woff") format("woff"), url("../fonts/18839597-afa8-4f0b-9abb-4a30262d0da8.ttf") format("truetype"), url("../fonts/1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585.svg#1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585") format("svg"); }
+@font-face {
+  font-family: 'AvenirNextLTW01-Demi';
+  src: url("../fonts/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix");
+  src: url("../fonts/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix") format("eot"), url("/fonts/aad99a1f-7917-4dd6-bbb5-b07cedbff64f.woff2") format("woff2"), url("../fonts/91b50bbb-9aa1-4d54-9159-ec6f19d14a7c.woff") format("woff"), url("../fonts/a0f4c2f9-8a42-4786-ad00-fce42b57b148.ttf") format("truetype"), url("../fonts/99affa9a-a5e9-4559-bd07-20cf0071852d.svg#99affa9a-a5e9-4559-bd07-20cf0071852d") format("svg"); }
+@font-face {
+  font-family: 'AvenirNextLTW01-DemiIta';
+  src: url("../fonts/770d9a7e-8842-4376-9319-8f2c8b8e880d.eot?#iefix");
+  src: url("../fonts/770d9a7e-8842-4376-9319-8f2c8b8e880d.eot?#iefix") format("eot"), url("/fonts/687932cb-145b-4690-a21d-ed1243db9e36.woff2") format("woff2"), url("../fonts/bc350df4-3100-4ce1-84ce-4a5363dbccfa.woff") format("woff"), url("../fonts/bc13ae80-cd05-42b4-b2a9-c123259cb166.ttf") format("truetype"), url("../fonts/4862b373-2643-46b1-b0b5-88537c52d15c.svg#4862b373-2643-46b1-b0b5-88537c52d15c") format("svg"); }
+@media screen and (min-width: 767px) {
+  body.index #project-lighthouse > a:after {
+    background: linear-gradient(180deg, rgba(97, 15, 26, 0), #610F1A, #610F1A); }
+  body.index #project-lighthouse > a:hover:after {
+    background: linear-gradient(180deg, rgba(79, 12, 21, 0), #4f0c15, #4f0c15); }
+  body.index #project-lighthouse > a:hover > article {
+    background: #4f0c15; } }
+body.index #project-lighthouse > a > article {
+  background: #610F1A; }
+  body.index #project-lighthouse > a > article header.project-title h1 span {
+    background: #1f0508; }
+  body.index #project-lighthouse > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #35080e; }
+body.lighthouse_index {
+  background: #4f0c15; }
+  body.lighthouse_index header#topnav {
+    background: #35080e; }
+    body.lighthouse_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #8d1626; }
+  body.lighthouse_index header.project-title h1 span {
+    background: #1f0508; }
+  body.lighthouse_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #35080e; }
+  body.lighthouse_index > article, body.lighthouse_index > section > div {
+    background: #610F1A; }
+  body.lighthouse_index > section.what-next {
+    background: #1f0508; }
+  body.lighthouse_index blockquote.pull-quote span {
+    background: #35080e; }
+
+@media screen and (min-width: 767px) {
+  body.index #project-letters > a:after {
+    background: linear-gradient(180deg, rgba(46, 72, 52, 0), #2E4834, #2E4834); }
+  body.index #project-letters > a:hover:after {
+    background: linear-gradient(180deg, rgba(38, 60, 43, 0), #263c2b, #263c2b); }
+  body.index #project-letters > a:hover > article {
+    background: #263c2b; } }
+body.index #project-letters > a > article {
+  background: #2E4834; }
+  body.index #project-letters > a > article header.project-title h1 span {
+    background: #101912; }
+  body.index #project-letters > a > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #1a291e; }
+body.letters_index {
+  background: #263c2b; }
+  body.letters_index header#topnav {
+    background: #1a291e; }
+    body.letters_index header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #42674a; }
+  body.letters_index header.project-title h1 span {
+    background: #101912; }
+  body.letters_index > article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+    color: #1a291e; }
+  body.letters_index > article, body.letters_index > section > div {
+    background: #2E4834; }
+  body.letters_index > section.what-next {
+    background: #101912; }
+  body.letters_index blockquote.pull-quote span {
+    background: #1a291e; }
+
+/* general
+--------------------------------------------------*/
+html {
+  overflow-y: scroll;
+  height: 100%;
+  background: #F3F4F6;
+  text-rendering: optimizeLegibility;
+  -webkit-overflow-scrolling: touch; }
+
+body {
+  overflow: auto;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "AvenirNextLTW01-Regular", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal; }
+
+/* typography
+--------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "AvenirNextLTW01-Demi";
+  font-weight: normal; }
+  h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
+    font-family: 'AvenirNextLTW01-DemiIta';
+    font-weight: normal; }
+
+h2, h3 {
+  margin: 1.8rem 0 0 0; }
+  @media screen and (min-width: 766px) {
+    h2, h3 {
+      margin: 3.2rem 0 0 0; } }
+
+em {
+  font-family: 'AvenirNextLTW01-Italic';
+  font-weight: normal; }
+
+strong {
+  font-family: "AvenirNextLTW01-Medium";
+  font-weight: normal; }
+
+header#topnav {
+  width: 100%;
+  font-family: "AvenirNextLTW01-Regular", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  box-sizing: border-box;
+  line-height: 55px;
+  padding: 0.2rem 1rem; }
+  @media screen and (min-width: 766px) {
+    header#topnav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10; } }
+  header#topnav a, header#topnav a:active, header#topnav a:visited {
+    color: inherit;
+    font-family: "AvenirNextLTW01-Medium";
+    text-decoration: none; }
+    header#topnav a:nth-of-type(1), header#topnav a:active:nth-of-type(1), header#topnav a:visited:nth-of-type(1) {
+      margin-right: 0.3rem; }
+    header#topnav a:nth-of-type(2), header#topnav a:active:nth-of-type(2), header#topnav a:visited:nth-of-type(2) {
+      float: right; }
+      @media screen and (max-width: 766px) {
+        header#topnav a:nth-of-type(2), header#topnav a:active:nth-of-type(2), header#topnav a:visited:nth-of-type(2) {
+          top: 3px;
+          position: absolute;
+          right: 0; } }
+  @media screen and (max-width: 766px) {
+    header#topnav > span {
+      display: inline-block;
+      line-height: 1.4rem; } }
+  @media screen and (min-width: 766px) {
+    header#topnav > span {
+      margin: 0 0.8rem; } }
+  header#topnav nav {
+    float: right;
+    display: none; }
+    @media screen and (min-width: 766px) {
+      header#topnav nav {
+        display: inline; } }
+    header#topnav nav span {
+      cursor: pointer;
+      padding: 0.4rem 1rem;
+      border: 1px solid #282828;
+      box-sizing: border-box;
+      border-radius: 0.2rem; }
+      header#topnav nav span:hover {
+        background: rgba(40, 40, 40, 0.1); }
+      header#topnav nav span:active {
+        background: #282828;
+        color: white; }
+  header#topnav svg#coop-logo {
+    width: 32px;
+    vertical-align: middle;
+    margin: 0 1rem 0 0; }
+    header#topnav svg#coop-logo g#coop-logo-shape {
+      fill: #282828; }
+
+.index {
+  display: block;
+  height: 100%;
+  overflow-x: auto; }
+  .index header#topnav {
+    margin-bottom: 1rem; }
+    @media screen and (max-width: 766px) {
+      .index header#topnav span {
+        font-size: 1.2rem;
+        line-height: 1.4; }
+        .index header#topnav span a {
+          display: block; } }
+
+body.about_index header#topnav {
+  position: relative; }
+  body.about_index header#topnav a {
+    color: #282828; }
+body.about_index article {
+  padding: 1rem; }
+  @media screen and (min-width: 767px) {
+    body.about_index article {
+      font-size: 24px;
+      padding: 0rem 1rem;
+      max-width: 600px; } }
+  body.about_index article a {
+    color: inherit; }
+
+#projects {
+  overflow: visible;
+  height: auto; }
+  #projects h2, #projects h3 {
+    margin: 1.8rem 0 0 0; }
+    @media screen and (min-width: 766px) {
+      #projects h2, #projects h3 {
+        margin: 1.8rem 0 0 0; } }
+  @media screen and (min-width: 767px) {
+    #projects {
+      display: flex;
+      overflow-x: auto;
+      width: auto;
+      margin-top: 4rem;
+      height: calc(100% - 5rem);
+      margin-bottom: 1rem; } }
+  #projects > div:last-of-type {
+    margin-right: 1rem; }
+  #projects .project {
+    position: relative;
+    margin: 0 1rem 1rem 1rem;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    background: white; }
+    @media screen and (min-width: 767px) {
+      #projects .project {
+        width: 330px;
+        min-width: 330px;
+        max-width: 330px;
+        margin: 0 0 0 1rem; } }
+    #projects .project a {
+      color: inherit;
+      display: block;
+      overflow: hidden;
+      position: relative;
+      text-decoration: none;
+      color: white; }
+      @media screen and (min-width: 767px) {
+        #projects .project a:after {
+          content: 'Read more →';
+          color: white;
+          display: block;
+          position: absolute;
+          top: calc(100vh - 17rem);
+          left: 0;
+          width: 100%;
+          height: 12rem;
+          box-sizing: border-box;
+          padding: 1.2rem;
+          line-height: 18;
+          border-bottom-left-radius: 0.2rem;
+          border-bottom-right-radius: 0.2rem; } }
+      @media screen and (max-width: 767px) {
+        #projects .project a {
+          overflow-y: hidden;
+          height: inherit;
+          display: block; } }
+    #projects .project article {
+      padding: 1.2rem;
+      width: auto;
+      float: none; }
+      #projects .project article section section.situation {
+        font-size: 1.2rem;
+        font-family: "AvenirNextLTW01-Medium"; }
+      @media screen and (max-width: 767px) {
+        #projects .project article section * {
+          display: none; }
+        #projects .project article section header.project-title {
+          display: block; }
+          #projects .project article section header.project-title h1, #projects .project article section header.project-title time {
+            display: block; }
+          #projects .project article section header.project-title span {
+            display: inline; } }
+      #projects .project article aside.experiment-live {
+        display: none; }
+      #projects .project article figure {
+        margin: 0;
+        font-size: 0.8rem; }
+
+body:not(.index) header#topnav {
+  color: white; }
+  body:not(.index) header#topnav span {
+    display: none; }
+
+body li {
+  margin-bottom: 0.6rem; }
+body article section header.project-title h1 span {
+  background: #282828;
+  color: white;
+  line-height: 2.6rem; }
+body article section header time {
+  font-size: 0.8rem; }
+body article section img {
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 0.2rem; }
+body article section figure {
+  font-size: 1rem; }
+  body article section figure figcaption {
+    margin-top: 0.4rem;
+    max-width: 420px;
+    opacity: 0.5; }
+body article section blockquote {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  quotes: "“" "”";
+  margin: 1.5rem 10px;
+  padding: 0.5em 10px;
+  position: relative;
+  margin: 2.8rem;
+  padding: 0;
+  box-sizing: border-box; }
+  body article section blockquote:before {
+    font-family: inherit;
+    content: open-quote;
+    font-size: 4rem;
+    position: absolute;
+    left: -2.4rem;
+    top: 1.2rem;
+    opacity: 0.5;
+    line-height: 0; }
+  body article section blockquote p {
+    display: inline-block;
+    margin: 0 0 1rem 0; }
+  body article section blockquote footer {
+    opacity: 0.5;
+    max-width: 260px;
+    font-family: "AvenirNextLTW01-Regular", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 1rem; }
+    body article section blockquote footer cite {
+      font-style: normal; }
+
+body:not(.index):not(.about_index) {
+  color: white; }
+  @media screen and (min-width: 767px) {
+    body:not(.index):not(.about_index) {
+      font-size: 24px;
+      line-height: 1.4; } }
+  @media screen and (min-width: 767px) {
+    body:not(.index):not(.about_index) h1, body:not(.index):not(.about_index) h2 {
+      line-height: 1.2; } }
+  body:not(.index):not(.about_index) p, body:not(.index):not(.about_index) blockquote, body:not(.index):not(.about_index) h2, body:not(.index):not(.about_index) h3 {
+    width: 90%; }
+    @media screen and (min-width: 767px) {
+      body:not(.index):not(.about_index) p, body:not(.index):not(.about_index) blockquote, body:not(.index):not(.about_index) h2, body:not(.index):not(.about_index) h3 {
+        width: 80%; } }
+  body:not(.index):not(.about_index) a {
+    color: inherit; }
+  body:not(.index):not(.about_index) article {
+    padding: 1rem;
+    box-sizing: border-box; }
+    @media screen and (min-width: 767px) {
+      body:not(.index):not(.about_index) article {
+        padding: 2rem;
+        float: right;
+        width: 60%; }
+        body:not(.index):not(.about_index) article > section {
+          max-width: 800px;
+          float: left; } }
+    @media screen and (min-width: 767px) {
+      body:not(.index):not(.about_index) article header.project-title {
+        margin-left: -50%;
+        z-index: 1; } }
+    body:not(.index):not(.about_index) article header.project-title h1 {
+      width: 90%; }
+      @media screen and (min-width: 767px) {
+        body:not(.index):not(.about_index) article header.project-title h1 {
+          margin-top: 6rem; }
+          body:not(.index):not(.about_index) article header.project-title h1 span {
+            position: relative;
+            font-size: 6.8rem;
+            line-height: 9rem; } }
+    body:not(.index):not(.about_index) article figure {
+      margin: 0 0 2rem 0; }
+      @media screen and (min-width: 767px) {
+        body:not(.index):not(.about_index) article figure.img-wide {
+          margin-left: -8rem; }
+          body:not(.index):not(.about_index) article figure.img-wide figcaption {
+            margin-left: 8rem; } }
+      body:not(.index):not(.about_index) article figure figcaption {
+        margin-top: 0.8rem; }
+    body:not(.index):not(.about_index) article > section > section {
+      position: relative; }
+      body:not(.index):not(.about_index) article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+        content: '⩗⩘ ⩗⩘ ⩗⩘';
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 1rem 0; }
+        @media screen and (min-width: 767px) {
+          body:not(.index):not(.about_index) article > section > section:not(.situation):not(.question):not(.answer):not(:last-of-type):after {
+            padding: 2rem 0; } }
+      @media screen and (min-width: 767px) {
+        body:not(.index):not(.about_index) article > section > section.situation {
+          font-size: 2.2rem;
+          font-family: "AvenirNextLTW01-Medium";
+          margin-bottom: 4rem; } }
+      body:not(.index):not(.about_index) article > section > section:last-of-type {
+        margin-bottom: 2rem; }
+  body:not(.index):not(.about_index) blockquote.pull-quote {
+    display: none; }
+    @media screen and (min-width: 767px) {
+      body:not(.index):not(.about_index) blockquote.pull-quote {
+        display: block; }
+        body:not(.index):not(.about_index) blockquote.pull-quote:before {
+          display: none; }
+        body:not(.index):not(.about_index) blockquote.pull-quote p {
+          font-size: 2.8rem;
+          line-height: 3.8rem; } }
+    body:not(.index):not(.about_index) blockquote.pull-quote p span {
+      color: white; }
+  @media screen and (min-width: 767px) {
+    body:not(.index):not(.about_index) aside, body:not(.index):not(.about_index) blockquote.pull-quote {
+      width: 50%;
+      margin-left: -60%;
+      float: left; } }
+  @media screen and (max-width: 766px) {
+    body:not(.index):not(.about_index) aside.experiment-live figure, body:not(.index):not(.about_index) blockquote.pull-quote.experiment-live figure {
+      display: none; } }
+  body:not(.index):not(.about_index) aside.desktop-embed, body:not(.index):not(.about_index) blockquote.pull-quote.desktop-embed {
+    margin-bottom: 4rem;
+    width: 150%; }
+    @media screen and (min-width: 767px) and (max-width: 1200px) {
+      body:not(.index):not(.about_index) aside.desktop-embed, body:not(.index):not(.about_index) blockquote.pull-quote.desktop-embed {
+        float: right;
+        transform: scale(0.5);
+        transform-origin: 0 0; } }
+    body:not(.index):not(.about_index) aside.desktop-embed figure > div, body:not(.index):not(.about_index) blockquote.pull-quote.desktop-embed figure > div {
+      border-radius: 0.4rem;
+      padding-top: 2rem;
+      background: #d0d0d0;
+      border: 1px solid #282828; }
+      @media screen and (min-width: 767px) and (max-width: 1200px) {
+        body:not(.index):not(.about_index) aside.desktop-embed figure > div, body:not(.index):not(.about_index) blockquote.pull-quote.desktop-embed figure > div {
+          width: 120%; } }
+  body:not(.index):not(.about_index) aside figure.mobile-frame h2, body:not(.index):not(.about_index) blockquote.pull-quote figure.mobile-frame h2 {
+    margin: 0 0 2rem 2rem; }
+  @media screen and (min-width: 767px) {
+    body:not(.index):not(.about_index) aside figure.mobile-frame > div.frame, body:not(.index):not(.about_index) blockquote.pull-quote figure.mobile-frame > div.frame {
+      background: #282828;
+      padding: 4rem 1rem;
+      border-radius: 2rem;
+      max-width: 400px; } }
+  @media screen and (min-width: 767px) {
+    body:not(.index):not(.about_index) aside figure.mobile-frame figcaption, body:not(.index):not(.about_index) blockquote.pull-quote figure.mobile-frame figcaption {
+      max-width: 80%;
+      margin: 2rem; } }
+  body:not(.index):not(.about_index) aside figure .embed, body:not(.index):not(.about_index) blockquote.pull-quote figure .embed {
+    position: relative;
+    padding-bottom: 160%;
+    width: 100%;
+    text-align: left;
+    background: white; }
+    body:not(.index):not(.about_index) aside figure .embed iframe, body:not(.index):not(.about_index) blockquote.pull-quote figure .embed iframe {
+      width: 100%;
+      position: absolute;
+      height: 100%;
+      overflow: hidden; }
+  body:not(.index):not(.about_index) section.methods,
+  body:not(.index):not(.about_index) section.what-next {
+    width: 100%;
+    display: block;
+    float: left;
+    z-index: 1;
+    position: relative; }
+    @media screen and (min-width: 767px) {
+      body:not(.index):not(.about_index) section.methods p, body:not(.index):not(.about_index) section.methods blockquote, body:not(.index):not(.about_index) section.methods h1, body:not(.index):not(.about_index) section.methods h2, body:not(.index):not(.about_index) section.methods h3,
+      body:not(.index):not(.about_index) section.what-next p,
+      body:not(.index):not(.about_index) section.what-next blockquote,
+      body:not(.index):not(.about_index) section.what-next h1,
+      body:not(.index):not(.about_index) section.what-next h2,
+      body:not(.index):not(.about_index) section.what-next h3 {
+        width: 80%; } }
+  body:not(.index):not(.about_index) section.methods div {
+    box-sizing: border-box;
+    padding: 1rem; }
+    @media screen and (min-width: 767px) {
+      body:not(.index):not(.about_index) section.methods div {
+        padding: 2rem 2rem 8rem 2rem;
+        width: 60%;
+        margin: 0 auto;
+        float: right; }
+        body:not(.index):not(.about_index) section.methods div > * {
+          box-sizing: border-box;
+          max-width: 800px;
+          padding-right: 10%; } }
+  body:not(.index):not(.about_index) section.what-next {
+    padding: 4rem 0 10rem 0; }
+    body:not(.index):not(.about_index) section.what-next section.resources,
+    body:not(.index):not(.about_index) section.what-next section.further-reading,
+    body:not(.index):not(.about_index) section.what-next section.related-project,
+    body:not(.index):not(.about_index) section.what-next section.view-experiment {
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 4rem; }
+      @media screen and (min-width: 767px) {
+        body:not(.index):not(.about_index) section.what-next section.resources a.experiment-link,
+        body:not(.index):not(.about_index) section.what-next section.further-reading a.experiment-link,
+        body:not(.index):not(.about_index) section.what-next section.related-project a.experiment-link,
+        body:not(.index):not(.about_index) section.what-next section.view-experiment a.experiment-link {
+          display: none; } }
+      @media screen and (min-width: 767px) {
+        body:not(.index):not(.about_index) section.what-next section.resources,
+        body:not(.index):not(.about_index) section.what-next section.further-reading,
+        body:not(.index):not(.about_index) section.what-next section.related-project,
+        body:not(.index):not(.about_index) section.what-next section.view-experiment {
+          width: 50%;
+          margin-bottom: 6rem; } }
+
+div#wip {
+  position: fixed;
+  padding: 0rem 1.2rem;
+  background: orange;
+  color: #774d00;
+  font-size: 0.8rem;
+  line-height: 28px;
+  bottom: 2rem;
+  right: 1rem;
+  border-radius: 0.2rem;
+  width: auto;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #D08600;
+  z-index: 1; }
+  div#wip a {
+    color: white; }
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }

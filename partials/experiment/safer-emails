@@ -1,0 +1,261 @@
+<article>
+  <section>
+
+    <header class="project-title">
+      <h1><span>Sending safer emails</span></h1>
+      <time>April 2017</time>
+    </header>
+
+    <section class="situation">
+      <p>
+        At many times in our lives we’re required to share personal information with organisations to prove our identity, income or otherwise. As the world turned digital, that increasingly moved from paper-based copies to scans over email. At the same time, email inboxes have grown, allowing us to archive, not delete.
+      </p>
+    </section>
+    <section class="complication">
+      <p>
+        Sometimes organisations aren’t as careful with our data as we’d like them to be. Often people just need to get the job done, and that can mean good security practices fall by the wayside.
+      </p>
+      <p>
+        Suppose a mortgage advisor’s inbox was hacked: how many people’s identifying information would be sitting in their archive, waiting to be misused? How much personal information is lying around in your sent items, long forgotten, but rich pickings for an identity thief?
+      </p>
+      <p>
+        At the sharper end, we met a Venezuelan human rights worker at the Internet Freedom Festival who told us about lawyers sending sensitive personal information about clients using Hotmail. In a regime where human rights lawyers are routinely targeted, and that information would put the client’s life at risk, the stakes are high.
+      </p>
+    </section>
+
+    <section class="question">
+      <h2>Can we build tools that are safe enough for high-risk individuals <em>and</em> useable enough for the mainstream?</h2>
+      <p>
+        By designing for the hardest case, if we were able to build something that gave value to others too, we felt we would have built something quite unusual.
+      </p>
+
+    </section>
+
+    <section class="answer">
+      <h2>We built Atbash, a “secure attachment” browser extension</h2>
+
+      <aside>
+        <figure>
+          <img src="/Assets/Atbash/atbash.gif" alt="Gif showing how to add an encrypted link instead of an attachment using Atbash" />
+        <figcaption>
+          Atbash lets you add a link to an encrypted file instead of an attachment
+        </figcaption>
+        </figure>
+      </aside>
+
+
+      <p>
+        We started with the case where a Gmail user is asked to send over a scan of their passport. The person is in their inbox, and the simplest thing is to hit “reply”, attach the file and hit send.
+      </p>
+      <p>
+        We thought this was a good point to intervene in the user’s behaviour - what if we replaced their “attach a file” button with an alternative?
+      </p>
+      <p>
+        We built Atbash (a curious word referring to an ancient cipher) as an extension for the Chrome browser which modifies the Gmail web interface to do just that.
+      </p>
+
+      <h2>We learned from organisations trusted by human rights groups</h2>
+      <blockquote class="pull-quote">
+        <p>
+          <span>
+            It’s not good enough for products to say “we won’t look at your stuff, honest” - that claim needs to be verifiable
+          </span>
+        </p>
+      </blockquote>
+
+      <p>
+        Human rights groups have stricter requirements for trust than most people and organisations due to the nature of their work. When an NGO is working against abuses by their own government, it’s unlikely they’ll trust a company that could be forced by that government to act against them.
+      </p>
+      <p>
+        This community is suspicious of services that they can’t assess and understand. It’s not good enough for products to say “we won’t look at your stuff, honest” - that claim needs to be verifiable.
+      </p>
+      <p>
+        We looked at organisations like Open Whisper Systems who make the Signal messaging app for inspiration. Signal is developed entirely in the open, allowing anyone to see all the thinking, discussion and code that makes up the app. That’s important as it makes it practically difficult for the Signal developers to write malicious code without leaving traces. It also helps people understand the personal motivations and thought patterns of those developers, which also builds trust.
+      </p>
+      <p>
+        Furthermore, if you’ve got the skills, you can download and modify Signal and make it work the way you’d like it to. That’s an important freedom that helps build trust: if Signal were to turn bad in the future, the community could “fork” it and continue developing it under a new guise.
+      </p>
+
+      <blockquote>
+        <p>
+          We are a community and we can change things.
+        </p>
+        <footer>-
+          <cite>
+            P, male, 50s, sends files using email and SSH file transfer protocol
+          </cite>
+        </footer>
+
+      </blockquote>
+
+      <p>
+        We built Atbash, a Chrome browser extension, along the same principles. Even though it was a small prototype, we started it as a public GitHub repository. Anyone who wants to understand it better is able to look back through the repository and see a complete history of every line of code.
+      </p>
+
+      <h2>We designed for end-to-end encryption</h2>
+      <blockquote class="pull-quote">
+        <p>
+          <span>
+            There’s a big difference between “we <em>can’t</em> look at your stuff” and “we <em>won’t</em> look at your stuff”
+          </span>
+        </p>
+      </blockquote>
+
+      <p>
+        Atbash was a prototype service for sending sensitive personal information to another person. There was no need for the service to be able to access that information, so we designed Atbash in a way that prevents that.
+      </p>
+
+      <p>
+        There’s a big difference between “we <em>can’t</em> look at your stuff” and “we <em>won’t</em> look at your stuff”. Services like Google Drive and Dropbox take the “won’t” approach, and you have to trust them to keep that promise.
+      </p>
+
+
+      <p>
+        End-to-end encrypted services are designed so they “can’t” see your stuff - at least not without sneakily altering the way the service works, which may be detected.
+      </p>
+      <p>
+        We designed Atbash so the server would hold encrypted files, but that the key would only ever be transmitted between the user and their contact. In that way, the server never holds both the encrypted file and the key at the same time.
+      </p>
+
+    </section>
+
+    <section class="learning">
+
+      <h2>
+        People felt uncomfortable
+      </h2>
+      <blockquote>
+        <p>
+          We all sent pictures of our passports over Facebook Messenger. I looked back and thought “why have I sent it like that?”.
+        </p>
+        <footer>-
+          <cite>
+            F, female, 20s, has sent files by email and Facebook Messenger
+          </cite>
+        </footer>
+      </blockquote>
+
+      <h2>
+        People took guidance from their own networks
+      </h2>
+      <p>
+        A common theme was that people used those around them to guide decisions about what services to use.
+      </p>
+      <blockquote>
+        <p>
+          I ask other people I trust, do you trust this?
+        </p>
+        <p>
+          I would ask other people to have a look and ask my white hat to try to hack it.
+        </p>
+        <footer>-
+          <cite>
+            P, male, 50s, sends files using email and SSH file transfer protocol
+          </cite>
+        </footer>
+      </blockquote>
+      <blockquote>
+        <p>
+          I’ve left computer stuff to other people and let them tell me what to do.
+        </p>
+        <footer>-
+          <cite>
+            M, male, 40s, sends files using email and WeTransfer
+          </cite>
+        </footer>
+      </blockquote>
+      <blockquote>
+        <p>
+          It’s one of the world’s most used browsers, everyone I know uses Chrome.
+        </p>
+        <footer>-
+          <cite>
+            F, female, 20s, has sent files by email and Facebook Messenger
+          </cite>
+        </footer>
+      </blockquote>
+      <h2>
+        There was a mixed understanding of “open source”
+      </h2>
+      <p>
+        One participant strongly believed that open source software was more reliable due to the community nature of the development.
+      </p>
+      <blockquote>
+        <p>
+          Every line is crawled over by many people. If anyone tries to sneak bad code in it will be spotted.
+        </p>
+        <p>
+          [having lots of security bugs is] absolutely linked to them being closed.
+        </p>
+        <footer>-
+          <cite>
+            P, male, 50s, sends files using email and SSH file transfer protocol
+          </cite>
+        </footer>
+      </blockquote>
+      <p>
+        Other participants were unfamiliar with the concept of open source.
+      </p>
+      <blockquote>
+        <p>
+          It’s not a phrase that I’ve come across before.
+        </p>
+        <footer>-
+          <cite>
+            F, female, 20s, has sent files by email and Facebook Messenger
+          </cite>
+        </footer>
+      </blockquote>
+      <h2>Co-op members trusted the Co-op to build strong services</h2>
+      <blockquote>
+        <p>
+          I don’t think Atbash is a good name because it doesn’t say Co-op and people trust Co-op. In that respect you’re doing it a disservice.
+        </p>
+        <footer>-
+          <cite>
+            P, male, 50s, sends files using email and SSH file transfer protocol
+          </cite>
+        </footer>
+      </blockquote>
+      <blockquote>
+        <p>
+          I trust Co-op because they seem a very fair company, they have a good reputation.
+        </p>
+        <footer>-
+          <cite>
+            M, male, 40s, sends files using email and WeTransfer
+          </cite>
+        </footer>
+      </blockquote>
+      <h2>Brand and reputation was strongly related to trust</h2>
+      <blockquote>
+        <p>
+          I don’t think I’ve used Firefox before but I’ve heard of it. What brand is it from? Because I’ve heard of the others and used them that’s why [I don’t trust them as much].
+        </p>
+        <p>
+          &hellip;I’d say Apple Mail is the most secure because it’s all they kind of do really if they got hacked it would be their entire business.
+        </p>
+        <footer>-
+          <cite>
+            I, male, 20s, sends files using email, social media and Google Drive
+          </cite>
+        </footer>
+      </blockquote>
+      <blockquote>
+        <p>
+          Microsoft have still to produce a piece of code that isn’t vulnerable.
+        </p>
+        <footer>-
+          <cite>
+            P, male, 50s, sends files using email and SSH file transfer protocol
+          </cite>
+        </footer>
+      </blockquote>
+
+
+
+
+
+    </section>
+  </section>
+</article>

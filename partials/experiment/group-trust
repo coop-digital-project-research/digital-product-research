@@ -1,0 +1,261 @@
+<article>
+  <section>
+
+    <header class="project-title">
+      <h1><span>Protecting your stuff</span></h1>
+      <time>December 2016</time>
+    </header>
+
+    <section class="situation">
+      <h2>A lack of trust has broken insurance</h2>
+      <p>
+        People make fraudulent claims, which means insurers create policies that make it harder to claim, which means bona fide customers can’t make a claim when they need to.
+      </p>
+      <p>
+        Insurers don’t trust customers. Customers don’t trust insurers. Insurers collude to raise prices and don’t trust each another... And the regulators don’t trust the insurers.
+      </p>
+    </section>
+
+    <section class="complication">
+      <p>
+        There’s space for Co-op to take a radically new approach to insurance: local, mutual, community focused and owned by members.
+      </p>
+    </section>
+
+    <section class="what-we-did">
+      <p>
+        In collaboration with colleagues in Co-op insurance, we explored this alternative model built on trust. If people with similar risks could form groups and insure each other, they might be more likely to trust one another.
+      </p>
+    </section>
+
+    <section class="question-and-answer">
+      <h2 class="question">
+        How might we create an insurance model where people trust each other, and where members feel confident making claims?
+      </h2>
+    </section>
+
+    <section class="what-we-did">
+      <h2>Small groups with something in common</h2>
+
+
+      <aside class="experiment-live">
+        <figure class="mobile-frame">
+          <h2>Try our experiment:</h2>
+          <div class="frame">
+            <div class="embed">
+              <iframe width="375" height="667" frameborder="0" src="https://coop-protect.herokuapp.com/"></iframe>
+            </div>
+          </div>
+          <figcaption>
+          We built Protect Together to test whether people could trust each other enough to insure each other
+          </figcaption>
+        </figure>
+      </aside>
+
+      <p>
+        We created a prototype of Protect Together. Small groups of people with something in common (living in the same area in the same type of accommodation) could form a group and insure each other. Members would pay a regular contribution to a fund, and claims under a certain amount would come out of that fund. The group would decide what to do with any money left over (split between members or invest in their community to reduce the group’s risk), or what action to take if the fund ran low. We showed the prototype to six people who fit the requirements for our example group.
+      </p>
+    </section>
+
+
+    <section class="question-and-answer">
+    <figure>
+      <img src="/Assets/Protect/image01.jpg" alt="A woman tests out the Protct Together prototype on a laptop guided by one of our team" />
+      <figcaption>
+        Testing Protect Together with a research participant
+      </figcaption>
+    </figure>
+      <h2 class="question">
+        Could we explain the concept?
+      </h2>
+
+      <section class="answer">
+        <h3 class="answer">A new model of insurance needs a new way to explain it</h3>
+        <p>
+          The Protect Together home page did a poor job of explaining what the service was at a glance. While all respondents recognised it was something to do with insurance, none were entirely clear how it worked.
+        </p>
+
+        <blockquote>
+          <p>
+            I don’t know if it’s insurance for a group or if you’re putting money aside in case you need it - it’s a bit ambiguous.
+          </p>
+          <footer>-
+            <cite>
+              R, female, 26-35 year old, owns a laptop, tablet, phone, jewellery, TV
+            </cite>
+          </footer>
+        </blockquote>
+
+        <p>
+          Having started to sign up and clicked through a few of the screens, respondents then understood more clearly what Protect Together was. They all felt it aligned with the Co-op’s overall values.
+        </p>
+
+        <blockquote>
+          <p>
+            I think it’s a lot cheaper, it’s nice that your neighbours are going to be involved, and I’d trust it more being Co-op.
+          </p>
+          <footer>-
+            <cite>
+              A, female, 26-35 year old, owns a phone
+            </cite>
+          </footer>
+
+        </blockquote>
+
+        <p>
+          Respondents saw the difference from traditional insurance.
+        </p>
+
+        <blockquote>
+          <p>
+            It’s along the lines of a group insurance scheme. But the money you’re investing you can get back which is completely different to any other kind of insurance scheme.
+          </p>
+          <footer>-
+            <cite>
+              P, male, 36-45 year old, owns a phone
+            </cite>
+          </footer>
+
+        </blockquote>
+
+      </section>
+    </section>
+
+    <section class="question-and-answer">
+      <h2 class="question">
+        Could we create trust? How do we define communities and groups?
+      </h2>
+      <section class="answer">
+
+        <h3 class="answer">Living close to someone isn’t a strong enough reason to trust them</h3>
+
+        <blockquote class="pull-quote">
+          <p>
+            <span>
+              Despite living in the same area, none of the respondents felt a particular affinity with our example group
+            </span>
+          </p>
+        </blockquote>
+
+        <p>
+          Despite living in the same area, none of the respondents felt a particular affinity with our example group (people renting flats in the Green Quarter, Manchester). They either felt that they didn’t know their neighbours, or that the age group wasn’t right for them.
+        </p>
+
+        <blockquote>
+          <p>
+            I wouldn’t trust my neighbours because I don’t know them.
+          </p>
+          <footer>-
+            <cite>
+              R, female, 26-35 year old, owns a laptop, tablet, phone, jewellery, TV
+            </cite>
+          </footer>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            I’m too old - my son is 21! If there was an age group 33+ I’d have much more in common. Some 21 year olds are very focused, but some are not!
+          </p>
+          <footer>-
+            <cite>
+              C, female, 36-45 year old, owns a laptop, tablet, bike, jewellery, TV
+            </cite>
+          </footer>
+
+        </blockquote>
+      </section>
+    </section>
+
+    <section class="question-and-answer">
+      <h2 class="question">
+        Is there a need for this type of insurance?
+      </h2>
+      <section class="answer">
+
+        <h3 class="answer">Renters don’t feel that they have a lot that’s worth insuring</h3>
+
+        <p>
+          We focussed on people renting property for the test because of the complexities involved with building insurance claims but we learnt that several of the people we interviewed did not see a need to insure their contents in a furnished flat.
+        </p>
+
+        <blockquote>
+          <p>
+            TVs, laptops,  I don’t insure anything like that, I’ve no contents insurance either.
+          </p>
+          <footer>-
+            <cite>
+              A, female, 26-35 year old, owns a phone
+            </cite>
+          </footer>
+        </blockquote>
+
+      </section>
+    </section>
+
+    <section class="question-and-answer">
+      <h2 class="question">
+        Should members of the group be visible to each other? Is transparency better than anonymity?
+      </h2>
+      <section class="answer">
+
+        <h3 class="answer">People felt they’d need to talk to the group</h3>
+
+        <p>
+          When presented with the emails explaining a vote or action was required, four respondents weren’t comfortable with voting. They indicated they’d want to sound out the group in advance, or talk to people before making a decision. They seemed to assume the group was about 10 - 15 people strong.
+        </p>
+
+        <blockquote>
+          <p>
+            You’d almost want to get the email and then have a group meeting, everyone could vote independently but before that have a discussion.
+          </p>
+          <footer>-
+            <cite>
+              C, female, 36-45 year old, owns a laptop, tablet, bike, jewellery, TV
+            </cite>
+          </footer>
+        </blockquote>
+
+        <h3 class="answer">The perceived effort of participating in a group can be off putting</h3>
+
+        <blockquote class="pull-quote">
+          <p>
+            <span>
+              One participant was concerned that there might be a significant overhead in managing a group&hellip;
+            </span>
+          </p>
+        </blockquote>
+
+        <p>
+          One participant was concerned that there might be a significant overhead in managing a group, and that it might involve meeting up or other commitments.
+        </p>
+
+        <blockquote>
+          <p>
+            For me to receive a report, it sounds like you’re committing to something you don’t have time to do. This seems like a community or a steering group for your own bills, not something I’ve seen before. It feels like you might have to meet up, that’s a time commitment.
+          </p>
+          <footer>-
+            <cite>
+              C, female, 18-25 year old, owns a phone, TV
+            </cite>
+          </footer>
+        </blockquote>
+      </section>
+    </section>
+
+    <section class="next-steps">
+      <h2>Things we’d like to try next</h2>
+
+      <p>
+        Experiment with other ways of communicating the concept. A short 1 minute animation explaining Protect Together might be more effective at communicating the various parts to it. For a good example, see https://vimeo.com/62806565
+      </p>
+
+      <p>
+        Explore different types of groups that people might associate with. We should experiment with whether individuals associate and trust other people based on age, salary, job, interests. We could also look at whether it makes a difference if the group already know each other in another context or come together specifically to take part in the scheme.
+      </p>
+
+      <p>
+        Explore different sizes of groups that people might join. We didn’t explicitly show the size of the Green Quarter group. A future design sprint might present respondents with different size groups to better understand how they feel about this and how they might communicate.
+      </p>
+    </section>
+  </section>
+</article>

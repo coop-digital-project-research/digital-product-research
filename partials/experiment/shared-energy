@@ -1,0 +1,153 @@
+<article>
+  <section>
+    <header class="project-title">
+      <h1><span>Cheaper, greener energy through smart behaviour</span></h1>
+      <time>April 2017</time>
+    </header>
+
+    <section class="situation">
+      <p>
+        People install solar panels and wind turbines on their homes and community buildings, but renewable energy generation is variable. Often the installations make more energy than the people who own them can use or the energy is made at a time when it’s not needed on-site.
+      </p>
+    </section>
+
+    <section class="complication">
+      <h2>A waste of energy</h2>
+      <p>
+        There is no cheap way to store this energy so people sell it back to the grid at a low price. Meanwhile their neighbours are paying 2 to 3 times more to buy it back off the grid again when they use electricity at the same time.
+      </p>
+    </section>
+
+    <section class="what-we-did">
+      <h2>We got people together to talk about community energy</h2>
+      <p>
+        We prototyped Power Pack, an energy sharing club that brings local renewable energy producers and consumers together, and showed it to 13 people in the Sheffield area. We also published it nationally by advertising in Google search results to encourage people to visit.
+      </p>
+      <figure class="img-wide">
+        <img src="/Assets/Power_Pack/group-discussion.jpg" alt="A group of people talking in a farmhouse kitchen" />
+        <figcaption>
+          The group talking about Power Pack
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="question">
+      <h2>
+        How might we design a scalable proposition that encourages people to switch energy provider for the benefit of their community?
+      </h2>
+    </section>
+
+    <aside class="experiment-live">
+      <figure class="mobile-frame">
+        <h2>Try our experiment:</h2>
+        <div class="frame">
+          <div class="embed">
+            <iframe width="375" height="667" frameborder="0" src="https://www.powerpack.org.uk"></iframe>
+          </div>
+        </div>
+        <figcaption>
+          We built a website to prototype a platform supporting local renewable energy sharing clubs
+        </figcaption>
+      </figure>
+    </aside>
+
+    <section class="answer">
+      <h3>By keeping it local</h3>
+      <p>Inspired by successful local energy trading pilots in Bethesda and Shrivenham, we came up with Power Pack. Power Pack lets people set up an energy sharing club in their area to buy and sell energy with their neighbours. It offers a better price for everyone. Generators earn more for exporting and buyers pay less than the standard tariff. </p>
+
+      <p>To help us gauge interest we built a website to explain Power Pack and make it feel as though there are Power Packs around the UK.</p>
+
+      <h3>By making it feel real</h3>
+      <p>We set up some Google ads to direct people to the Power Pack website, where a postcode search delivers a page which shows the user that a Power Pack in their area is a real possibility.</p>
+
+      <p>We’ve given people the opportunity to sign up (pledge) to join Power Pack, we also installed customer support software that allows us to chat to people as they are on the website.</p>
+
+      <h3>Knocking on doors</h3>
+      <p>We had doorstep conversations with nine people in a street in Sheffield. We gave them the opportunity to sign up to Power Pack and spoke to them about community renewable energy.</p>
+
+      <h3>Minimum viable community</h3>
+      <p>We also brought a group of producers and consumers of local renewable energy together. We wanted to learn whether people would join and if they’d be happy to take on some responsibility. We didn’t try to simulate the platform technology. Instead we recruited our group and spent time with them on a field trip.</p>
+
+      <h3>Finding a renewable producer</h3>
+      <p>We needed to find someone who was producing renewable energy in Sheffield and selling their excess back to the grid to host our field trip. We found a few different types of business with solar panels and wind turbines; utilities companies, sports stadiums, warehouses, bus stations and farms. Eventually we found a farmer who was happy to show us around his installation and host our field trip.</p>
+
+      <h3>A trip to the farm</h3>
+      <p>Povey Farm is a pig farm on the outskirts of Sheffield in the Moss Valley. The farmer, Stephen Thompson has installed two wind turbines, PV solar panels and a straw burner. Stephen was happy to show a group of people around his farm, talk about his renewable energy production, and host a follow-up group discussion in his kitchen.</p>
+
+      <figure class="img-wide">
+        <img src="/Assets/Power_Pack/turbine.gif" alt="Moving image of a group of people standing in a field by a wind turbine" />
+        <figcaption>
+          People finding out about wind turbines
+        </figcaption>
+      </figure>
+
+      <p>We recruited our group by promoting the trip to relevant groups and individuals in the Sheffield area. We ran two trips, one mid week which eight people came to and one at the weekend which five attended; a good turn-out, given that we publicised them at fairly short notice.</p>
+
+      <blockquote class="pull-quote">
+        <p>
+          <span>
+            &hellip;people were enthusiastic and interested to find out more
+          </span>
+        </p>
+      </blockquote>
+
+      <blockquote>
+        <p>
+          Amazing to see the project in action and find out real world stories from Stephen the farmer regarding ups and downs.
+        </p>
+        <footer>-
+          <cite>
+            S, board member of a local creative arts charity, thinking of installing solar panels
+        </cite>
+        </footer>
+      </blockquote>
+
+        <p>Everyone who came along was already interested in renewable energy. There were lots of detailed questions about the technology and finances. After the tour the group discussed similar projects, attendees’ own renewable energy technology and the role of the Co-op in such a scheme.</p>
+
+        <p>After the events we surveyed the attendees to see if they’d be willing to join Power Pack in Sheffield. Four out of eight people completed the survey. Two attendees saying they would be willing to join, and two were interested if they had more information about the costs involved.</p>
+      </section>
+
+      <section class="learning">
+
+        <h2>
+          It’s a good story for a business
+        </h2>
+
+        <p>People and organisations generating renewable energy are generally open and happy to talk about it. They are proud of what they are doing. However, the larger the organisation the harder it is to navigate through customer service channels to find the right person to talk to.</p>
+
+        <h2>It feels believable</h2>
+
+        <p>We spoke to people in Sheffield on their doorsteps and found them enthusiastic. 6 out of 9 people signed up to Power Pack. They weren’t too bothered about understanding the technicalities, and were satisfied we knew what we were doing. Similarly, the people who attended our field trip to Povey Farm were happy to sign up and take part in a discussion - even with minimal information before the event.</p>
+
+        <h2>Previous trials prove it could work</h2>
+
+        <p>Once we had explained the idea behind Power Pack in more detail, no-one had any concerns. We discussed challenges but no-one dismissed the idea. Successful trials in Shrivenham and Bethesda validated the idea of a local energy trading club. Some attendees were interested in making solar installations financially viable, others liked the idea of supporting people in their community.</p>
+
+        <blockquote>
+          <p>
+            Interesting to see the energy set up and mix of solutions they’re using and also really valuable to chat to all the people and get a bit better informed.
+          </p>
+          <footer>-
+          <cite>
+              L, member of a local community renewable energy group
+          </cite>
+          </footer>
+        </blockquote>
+
+        <h2>No-one mentioned climate change</h2>
+
+        <p>Many people in the group were interested in the technology and engineering challenges without making any explicit references to environmental issues such as climate change. The challenge of setting up renewable energy schemes, and the rewards in terms of the money saved seemed to be motivation enough for some of the attendees.</p>
+
+      </section>
+
+      <section class="next-steps">
+
+        <h2>Where we want to go next</h2>
+
+        <p>If this is going to become a real scheme we need to understand more about the barriers between where we are and where we want to be.</p>
+
+        <p>We are going to keep in touch with the people who’ve signed up. We would like them to become the founding members of Power Packs in their areas.</p>
+
+      </section>
+  </section>
+</article>

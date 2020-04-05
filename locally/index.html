@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <title>Keeping money local | Digital Product Research</title>
+    <meta name="description" content="Could we help local independent shop keepers work together to increase local spending? We built a prototype local shared loyalty scheme to find out.">
+    <meta name="author" content="Digital Product Research team at Co-op Digital">
+    <link href="../Assets/favicon.ico" rel="icon" type="image/ico" />
+    <link href="../stylesheets/site.css" rel="stylesheet" />
+    <script src="../javascripts/all.js"></script>
+  </head>
+
+  <body class="locally locally_index">
+    <header id="topnav">
+
+      <?xml version="1.0" encoding="UTF-8"?>
+      <svg id="coop-logo" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="coop-logo-shape" transform="translate(0.000000, -66.000000)" fill-rule="nonzero">
+                  <g transform="translate(0.000000, 66.000000)">
+                      <g id="logo-copy">
+                          <path d="M19.688057,6.83669609 C19.8975045,6.11727617 20,5.37137453 20,4.61223203 C20,3.85750315 19.8930481,3.10718789 19.688057,2.39218159 C19.416221,1.49180328 18.7522282,0.785624212 17.8698752,0.454602774 C17.0008913,0.154476671 16.0918004,0 15.1693405,0 C14.2468806,0 13.342246,0.154476671 12.473262,0.454602774 C11.5864528,0.790037831 10.9224599,1.4962169 10.6550802,2.39218159 C10.4456328,3.11601513 10.3386809,3.86633039 10.3386809,4.61664565 C10.3386809,5.36696091 10.4456328,6.11727617 10.6550802,6.84110971 C10.9224599,7.7370744 11.5864528,8.44325347 12.473262,8.77868852 C13.342246,9.07881463 14.2513369,9.2332913 15.1693405,9.2332913 C16.087344,9.2332913 16.9964349,9.07881463 17.8698752,8.77868852 C18.7566845,8.44325347 19.416221,7.7370744 19.688057,6.83669609 M17.0855615,4.61223203 C17.0855615,4.98297604 17.0276292,5.34489281 16.9206774,5.69356873 C16.7691622,6.16582598 16.3680927,6.52332913 15.8734403,6.61601513 C15.6461676,6.66015132 15.4099822,6.68221942 15.1737968,6.68221942 C14.9376114,6.68221942 14.701426,6.66015132 14.4741533,6.61601513 C13.9795009,6.51891551 13.5784314,6.16582598 13.4269162,5.69356873 C13.315508,5.34489281 13.2620321,4.98297604 13.2620321,4.61223203 C13.2620321,4.24148802 13.3199643,3.87515763 13.4269162,3.53089533 C13.5784314,3.05863808 13.9795009,2.70113493 14.4741533,2.60844893 C14.701426,2.56431274 14.9376114,2.54224464 15.1737968,2.54224464 C15.4144385,2.54224464 15.6461676,2.56431274 15.8734403,2.60844893 C16.3680927,2.70554855 16.7691622,3.05863808 16.9206774,3.53089533 C17.0276292,3.87957125 17.0855615,4.24590164 17.0855615,4.61223203 M9.34937611,16.7099622 C9.55882353,15.9905422 9.66131907,15.2446406 9.66131907,14.4854981 C9.66131907,13.7307692 9.5543672,12.980454 9.34937611,12.2654477 C9.07754011,11.3650694 8.41354724,10.6588903 7.5311943,10.3278689 C6.65775401,10.0277427 5.75311943,9.87326608 4.83065954,9.87326608 C3.90819964,9.87326608 3.00356506,10.0277427 2.13458111,10.3278689 C1.24777184,10.6588903 0.583778966,11.3650694 0.316399287,12.2654477 C0.106951872,12.9848676 0,13.7351828 0,14.4854981 C0,15.2358134 0.106951872,15.9861286 0.316399287,16.7099622 C0.583778966,17.6059269 1.24777184,18.3121059 2.13458111,18.647541 C3.00356506,18.9476671 3.91265597,19.1021438 4.83065954,19.1021438 C5.7486631,19.1021438 6.65775401,18.9476671 7.5311943,18.647541 C8.41354724,18.3121059 9.07754011,17.6059269 9.34937611,16.7099622 M6.74688057,14.4854981 C6.74688057,14.8562421 6.68894831,15.2181589 6.58199643,15.5668348 C6.43048128,16.0390921 6.02941176,16.3965952 5.53475936,16.4892812 C5.30748663,16.5334174 5.07130125,16.5554855 4.83511586,16.5554855 C4.59893048,16.5554855 4.3627451,16.5334174 4.13547237,16.4892812 C3.64081996,16.3921816 3.23975045,16.0390921 3.08823529,15.5668348 C2.97682709,15.2181589 2.92335116,14.8562421 2.92335116,14.4854981 C2.92335116,14.1147541 2.98128342,13.7484237 3.08823529,13.4041614 C3.23975045,12.9319042 3.64081996,12.574401 4.13547237,12.481715 C4.3627451,12.4375788 4.59893048,12.4155107 4.83511586,12.4155107 C5.07130125,12.4155107 5.30748663,12.4375788 5.53475936,12.481715 C6.02941176,12.5788146 6.43048128,12.9319042 6.58199643,13.4041614 C6.68894831,13.7528373 6.74688057,14.1147541 6.74688057,14.4854981 M6.74688057,4.59457755 L9.6657754,4.59457755 C9.6657754,3.8442623 9.55882353,3.10277427 9.35383244,2.38776797 C9.08199643,1.48738966 8.41800357,0.781210593 7.53565062,0.450189155 C6.65775401,0.154476671 5.75311943,0 4.83065954,0 C3.90819964,0 3.00356506,0.154476671 2.13458111,0.454602774 C1.24777184,0.785624212 0.583778966,1.49180328 0.316399287,2.39218159 C0.106951872,3.11601513 0,3.86191677 0,4.61223203 C0,5.36254729 0.106951872,6.11286255 0.316399287,6.83669609 C0.583778966,7.73266078 1.24777184,8.43883985 2.13458111,8.77427491 C3.00356506,9.07440101 3.91265597,9.22887768 4.83065954,9.22887768 C5.7486631,9.22887768 6.65775401,9.07440101 7.5311943,8.77427491 C8.41354724,8.44325347 9.07754011,7.7370744 9.34937611,6.83669609 C9.38502674,6.71311475 9.41622103,6.58953342 9.44741533,6.46153846 L6.69786096,5.19041614 C6.67112299,5.36254729 6.63101604,5.53026482 6.57754011,5.69356873 C6.42602496,6.16582598 6.02495544,6.52332913 5.53030303,6.61601513 C5.3030303,6.66015132 5.06684492,6.68221942 4.83065954,6.68221942 C4.59447415,6.68221942 4.35828877,6.66015132 4.13101604,6.61601513 C3.63636364,6.51891551 3.23529412,6.16582598 3.08377897,5.69356873 C2.97237077,5.34489281 2.91889483,4.98297604 2.91889483,4.61223203 C2.91889483,4.24148802 2.97682709,3.87515763 3.08377897,3.53089533 C3.23529412,3.05863808 3.63636364,2.70113493 4.13101604,2.60844893 C4.35828877,2.56431274 4.59447415,2.54224464 4.83065954,2.54224464 C5.06684492,2.54224464 5.3030303,2.56431274 5.53030303,2.60844893 C6.02495544,2.70554855 6.42602496,3.05863808 6.57754011,3.53089533 C6.68894831,3.87515763 6.74242424,4.23266078 6.74688057,4.59457755 M10.6550802,12.261034 C10.4456328,12.9848676 10.3386809,13.7351828 10.3386809,14.4854981 L10.3386809,21 L13.2575758,21 L13.2575758,14.4854981 C13.2575758,14.1147541 13.315508,13.7484237 13.4224599,13.4041614 C13.573975,12.9319042 13.9750446,12.574401 14.469697,12.481715 C14.6969697,12.4375788 14.9331551,12.4155107 15.1693405,12.4155107 C15.4099822,12.4155107 15.6417112,12.4375788 15.868984,12.481715 C16.3636364,12.5788146 16.7647059,12.9319042 16.916221,13.4041614 C17.0276292,13.7528373 17.0811052,14.1191677 17.0811052,14.4854981 C17.0811052,14.8562421 17.0231729,15.2181589 16.916221,15.5668348 C16.7647059,16.0390921 16.3636364,16.3965952 15.868984,16.4892812 C15.6417112,16.5334174 15.4055258,16.5554855 15.1693405,16.5554855 C14.9331551,16.5554855 14.6969697,16.5334174 14.469697,16.4892812 C14.3716578,16.4716267 14.2825312,16.4407314 14.1934046,16.4054224 L15.1827094,19.0977301 C16.0962567,19.0977301 17.0008913,18.9432535 17.8698752,18.6431274 C18.7522282,18.3121059 19.416221,17.6059269 19.688057,16.7055485 C19.8975045,15.9861286 20,15.240227 20,14.4810845 C20,13.7263556 19.8930481,12.9760404 19.688057,12.2566204 C19.416221,11.3562421 18.7522282,10.6500631 17.8698752,10.3190416 C16.9964349,10.0189155 16.0918004,9.86443884 15.1693405,9.86443884 C14.2468806,9.86443884 13.342246,10.0189155 12.473262,10.3190416 C11.5864528,10.6588903 10.9224599,11.3650694 10.6550802,12.261034" id="XMLID_8_"></path>
+                      </g>
+                  </g>
+              </g>
+          </g>
+      </svg>
+
+      <a href="../">Digital Product Research</a><span>We’re a team at Co-op Digital and this is the archive of our experiments&hellip; <a href="../about/">Read more</a></span>
+      <nav>
+        <span class='arrow-left'>&larr;</span>
+        <span class='arrow-right'>&rarr;</span>
+      </nav>
+    </header>
+    <article>
+  <section>
+
+    <header class="project-title">
+      <h1><span>Keeping money local</span></h1>
+      <time>November 2016</time>
+    </header>
+
+    <section class="situation">
+      <p>Independents can’t compete with online shops and global chains. And when those businesses shut down, they leave gaps in the local economy as well as the high street.
+      </p>
+    </section>
+    <section class="complication">
+      <h2>High streets are changing</h2>
+      <p>
+        As family businesses and independent shops close down, they are often replaced by e-cigarette shops and tattoo parlours, which serve a narrow market. In richer areas, shops are replaced by cafes, bars and restaurants, which shifts the economy from day to night.
+      </p>
+    </section>
+    <section class="what-we-did">
+      <h2>A shared loyalty scheme for independent retailers</h2>
+      <p>
+        We showed six independent retailers in Chorlton a prototype of Locally, a scheme that earns shoppers ‘perks’, redeemable in any participating business, when they shop with local independent retailers.
+      </p>
+      <figure class="img-wide">
+        <img src="../Assets/Locally/using-the-app.png" alt="Close up of a person using the Locally app to enter an amount" />
+        <figcaption>
+          Money spent in local shops earns perks that can be redeemed in any participating business
+        </figcaption>
+      </figure>
+
+    </section>
+    <section class="question">
+      <h2>
+        Could Co-op encourage shoppers to spend their money locally and support their local economy?
+      </h2>
+    </section>
+
+    <section class="answer">
+      <h2>Only if the scheme is fair for everyone</h2>
+
+      <blockquote class="pull-quote">
+        <p>
+          <span>
+            &hellip;there were concerns about the practicalities of asking staff to use an app
+          </span>
+        </p>
+      </blockquote>
+
+      <p>
+        Reaction to the core concept (earning points with one business and getting the perk from another) was mixed, and there were concerns about the practicalities of asking staff to use an app.
+      </p>
+
+      <p>
+        Some local retailers were open to the idea behind Locally, and were interested in seeing the concept develop. However, most did not like the idea of shoppers earning perks in other shops and redeeming them in theirs, and felt the system could disadvantage them.
+      </p>
+
+      <p>
+        We heard mixed opinions about local business associations, that they were old fashioned and not very effective. Local business associations as technological platforms would be an interesting area for the Co-op to explore next.
+      </p>
+    </section>
+
+      <section class="question">
+        <h2>Would Locally benefit local retailers?</h2>
+      </section>
+
+      <section class="answer">
+        <h2>We have too many cards in our wallets already</h2>
+        <blockquote class="pull-quote">
+          <p>
+            <span>
+              Another card-based scheme was not the answer
+            </span>
+          </p>
+        </blockquote>
+
+        <p>Retailers we spoke to felt there are already a lot of similar schemes in place, which made it hard for their customers to keep up. Another card-based scheme was not the answer.
+        </p>
+        <blockquote>
+          <p>
+            How many cards do you get these days? Do you always have it in your purse? I have about 15 different loyalty cards in my purse.
+          </p>
+          <p>
+            The card is nothing new - I don’t think it will make any difference.
+          </p>
+          <footer>-
+            <cite>
+              A, Jewellers
+            </cite>
+          </footer>
+        </blockquote>
+
+      </section>
+
+      <section class="answer">
+        <h2>An app doesn’t suit everybody</h2>
+        <p>Retailers were worried about how they and their staff would use the app. Some were worried about it being time consuming and fiddly, and others thought it would be wrong to ask staff to use their own data whilst using the app in the shop. We also heard that not all their customers had smartphones, and would therefore miss out.
+        </p>
+
+        <aside class="live-experiment">
+          <figure class="mobile-frame">
+            <h2>Try our experiment:</h2>
+            <div class="frame">
+              <div class="embed">
+                <iframe width="375" height="667" frameborder="0" src="https://locally-merchant.digitalproductresearch.org.uk/"></iframe>
+              </div>
+            </div>
+            <figcaption>
+              Locally rewarded people who shopped in independent businesses in their area
+            </figcaption>
+          </figure>
+        </aside>
+
+        <blockquote>
+          <p>
+            We get a lot of older people who don’t know how to use their phones - why should only the tech savvy people get the discount?
+          </p>
+          <footer>-
+            <cite>
+              A, Jewellers
+            </cite>
+          </footer>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            From a customer perspective, there might be a reluctance for a retailer to link to a phone. What details are they taking? I’d have security concerns as a customer.
+          </p>
+          <footer>-
+            <cite>
+              L, Delicatessen and wine shop
+            </cite>
+          </footer>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            I’m slightly nervous about phone my phone as well, I tend to keep it in my phone or in my pocket, if I was using that, no, sorry&hellip; you’re constantly distracted, and I’d be nervous about using my own phone and putting it down somewhere.
+          </p>
+          <footer>-
+            <cite>
+              D, Craft shop
+            </cite>
+          </footer>
+        </blockquote>
+
+      </section>
+
+      <section class="answer">
+        <h2>Retailers worry about losing out</h2>
+        <p>
+          The goal of Locally was to increase local shopping overall, by offering rewards to people who shop with any local retailer. However some of the people we spoke to were worried that they would lose out, that shoppers would earn their ‘perks’ in other shops and redeem them in theirs. They were not convinced that they would benefit from new people coming into their shops.
+        </p>
+        <blockquote>
+          <p>
+            I have to give money to get people to come into our shop - which devalues all the hard work that we put in - it says that what we have isn’t enough. I don’t want to read any more. It instantly makes me go ugh.
+          </p>
+          <footer>-
+            <cite>
+              S, Clothes shop
+            </cite>
+          </footer>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            If everyone goes for a haircut - and then they redeem the points at [my butchers] - I’d be fuming! I’d be unemployed! I’d have to work for Tesco!
+          </p>
+          <footer>-
+            <cite>
+              P, Butchers
+            </cite>
+          </footer>
+        </blockquote>
+        <blockquote>
+          <p>
+            I can’t compete with that. I think people would come here, not to earn their points, but to use them, but they’d tell their kids they could use them in [partipant’s] shop.
+          </p>
+          <footer>-
+            <cite>
+              D, Craft shop
+            </cite>
+          </footer>
+        </blockquote>
+      </section>
+
+      <section class="answer">
+        <h2>Not everyone feels a sense of community with other retailers</h2>
+        <blockquote class="pull-quote">
+          <p>
+            <span>
+              &hellip;across the wider area there wasn’t a sense of community
+            </span>
+          </p>
+        </blockquote>
+
+        <p>Some retailers did talk about a community of shop keepers - but it wasn’t universal. Retailers who were on the same street tended to be involved in their local area, but across the wider area there wasn’t a sense of community.
+        </p>
+        <blockquote>
+          <p>
+            We’re not close enough to Beech Road, they don’t want us on that one, we’re kind of left to our own devices.
+          </p>
+          <footer>-
+            <cite>
+              A, Pet shop
+            </cite>
+          </footer>
+        </blockquote>
+        <blockquote>
+          <p>
+            Local shops on their street work together - they put their own money into decorations.
+          </p>
+          <footer>-
+            <cite>
+              A, Jewellers
+            </cite>
+          </footer>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            Other shops? I’m quite insular - I’m not massively involved in what other people are doing.
+          </p>
+          <footer>-
+            <cite>
+              S, Clothes shop
+            </cite>
+          </footer>
+
+        </blockquote>
+        <blockquote>
+          <p>
+            It’s like a community. We all knew each other and looked out for each other. Like an extended family.
+          </p>
+          <footer>-
+            <cite>
+              P, Butchers
+            </cite>
+          </footer>
+        </blockquote>
+
+        <aside>
+
+          <figure>
+            <img src="../Assets/Locally/chorlton-map.png" alt="Map showing the Chorlton area" />
+            <figcaption>
+              Location is important - neighbouring shops felt a kinship with each other, but across a wider area there was less community spirit
+            </figcaption>
+          </figure>
+
+
+        </aside>
+
+      </section>
+
+      <section class="answer">
+        <h2>Retailers had their own schemes in place</h2>
+        <p>
+          Everyone we spoke to had some way of rewarding loyalty to their own business.
+        </p>
+        <blockquote>
+          <p>
+            We have a discount in the store. It’s a bit like Boots. They have an account in the store, and they acrue points. We didn’t go down the route of cards, we just wanted a pin, it just puts the points on their account. They love it, and it keeps them coming back.
+          </p>
+          <footer>-
+            <cite>
+              A, Pet shop
+            </cite>
+          </footer>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            If a customer comes in and spends £500 - we’d offer a gift as a gesture - it’s an unexpected surprise - the cherry on the cake.
+          </p>
+          <footer>-
+            <cite>
+              S, Clothes shop
+            </cite>
+          </footer>
+        </blockquote>
+        <blockquote>
+          <p>
+            We already offer a 10% discount, anything that’s full price. I don’t want to confuse things. I’d probably stick with that, stay the same.
+          </p>
+          <footer>-
+            <cite>
+              L, Delicatessen and wine shop
+            </cite>
+          </footer>
+        </blockquote>
+
+      </section>
+
+      <section class="answer">
+        <h2>Trading associations are not working for everybody</h2>
+        <p>
+          We heard very mixed views about the local Traders Association. Some saw value in it and were active members, but others were critical, seeing the organisation as being old fashioned and not worth the cost of membership.
+        </p>
+        <blockquote>
+          <p>
+            I don’t participate in the Traders Association - it’s changed over the years - when I was having children they were trying to cover a bigger area - I was too tired and busy!
+          </p>
+          <footer>-
+            <cite>
+              S, Clothes shop
+            </cite>
+          </footer>
+
+        </blockquote>
+
+        <blockquote>
+          <p>
+            The only time they come knocking is money for Christmas lights. Trading Associations are not run properly. They’re not run properly. No one has time to turn up after work. There needs to be a portal, or an app, where businesses can come together and talk, more like social media, maybe password protected. And free.
+          </p>
+          <footer>-
+            <cite>
+              A, Pet shop
+            </cite>
+          </footer>
+
+        </blockquote>
+        <blockquote>
+          <p>
+            We’re an active part of the Traders Association. It was important to me [and partner], that we could build up a rapport, and use their business and reach to them first, see if there’s anything we can work together.
+          </p>
+          <footer>-
+            <cite>
+              L, Delicatessen and wine shop
+            </cite>
+          </footer>
+
+        </blockquote>
+
+      </section>
+      <section class="question">
+        <h2>Will retailers accept the Co-op’s involvement in this?</h2>
+      </section>
+
+      <section class="answer">
+        <h2>Yes, because of the strength of the brand</h2>
+        <blockquote class="pull-quote">
+          <p>
+            <span>
+              &hellip;the size and reputation of the Co-op would help a scheme like this to be successful
+            </span>
+          </p>
+        </blockquote>
+
+        <p>
+          We showed the participants a version of the card and leaflet with the Co-op brand. Reactions to this were positive, and people felt that this was the right kind of area for the Co-op to move into, even if they didn’t like the way the scheme was operated. They also thought that the size and reputation of the Co-op would help a scheme like this to be successful.
+        </p>
+
+        <blockquote>
+          <p>
+            I’d want to know it really would bring people to us. If it was run by the Co-op would you run a national advertisting campaign, that could be a good thing.
+          </p>
+          <p>
+            I don’t dislike the idea of the Co-op running a scheme that gets them to shop locally.
+          </p>
+          <footer>-
+            <cite>
+              D, Craft shop
+            </cite>
+          </footer>
+        </blockquote>
+        <blockquote>
+          <p>
+            I think, I feel comfortable seeing the Co-op logo, seeing the Co-operative being linked to… well anything really. It’s got such a good reputation. It’s a good thing. The only contradiction, is it doesn’t… well how can you have the Co-op linked to local businesses. … it might be that the Co-op shop is a bit of our competition. If it was Sainsbury’s or Tesco, that wouldn’t be good, but Co-op is different.
+          </p>
+          <footer>-
+            <cite>
+              L, Delicatessen and wine shop
+            </cite>
+          </footer>
+        </blockquote>
+        <blockquote>
+          <p>
+            If the Co-op are doing something like this, they are trying to keep money local and not give it to the big ones like Tesco and Morrisons. It’s all to do with money. Although I do notice that the Co-op have local charity on their notice board and different events - like at the moment a firework do in Beech road. They’re pretty good like that.
+          </p>
+          <footer>-
+            <cite>
+              P, Butchers
+            </cite>
+          </footer>
+
+        </blockquote>
+        <figure class="img-wide">
+          <img src="../Assets/Locally/coop-version.jpg" alt="Leaflet explaining the Locally scheme with Co-op branding" />
+          <figcaption>
+            People responded well to the Co-op version - because of our reputation
+          </figcaption>
+        </figure>
+
+      </section>
+  </section>
+</article>
+
+
+<section class="methods">
+  <div>
+    <h1>How we ran this experiment</h1>
+    <h2>Talking to experts</h2>
+<p>
+  We talk to experts in the areas we’ve been looking to find out what they think the big challenges are. We then turn these challenges into positive “how might we?” questions which we try to answer as we carry out the experiment.
+</p>
+<p>
+  We’re lucky enough to work for a large organsiation with a lot of expertise in-house - we’re grateful to our colleagues who have given us their time and their knowledge. We’ve found that the Co-op name has opened doors for us, and external experts have also let us interview them.
+</p>
+
+    <h2>From idea to software in 5 days</h2>
+<p>
+    We tested this idea by building and testing a prototype in 5 working days. Our goal was not to test the effectiveness of the prototype, but to use it as a starting point for a conversation. Using the <a href="https://library.gv.com/the-product-design-sprint-understand-day-1-e164f76e69cf#.9nh30f8z4">GV product design sprint</a> framework, we were able to quickly test our assumptions and make something that felt real enough to try out on some potential users. The conversations we have with users as they interact with our prototype tell us if an idea is worth persuing or not.
+</p>
+
+    <h2>One-to-one interviews with potential users</h2>
+<p>
+   We only have a few days to organise interviews, which means we have to use the quickest way to find relevant people to talk to. We use social media and our professional and social networks to carry out highly targeted recruitment to find people who closely represent our target audience.
+</p>
+<p>
+   We observe and record our interviews, taking care to remove any details that would identify the participants. Everyone involved signs a participant agreement and we give vouchers to the people who take part as a thank-you for their time.
+</p>
+<p>
+    We use active listening techniques to get deeper insights into the reasons behind comments that people make. We have learnt a lot from experts in Co-op Digital such as <a href="http://trvrs.co/book">Andrew Travers</a> and <a href="https://digitalblog.coop.co.uk/2017/03/09/small-is-beautiful-user-research-and-sample-sizes/">James Boardwell</a> that have helped us get the most from these interviews, thank you.
+</p>
+
+  </div>
+</section>
+
+<section class="what-next">
+  <section class="further-reading">
+    <h1>Further reading</h1>
+    <ul>
+      <li><a href="http://internetretailing.net/2016/07/nearst-aims-add-4bn-year-uk-high-street-2020-leveraging-local-search/" target="_blank">NearSt aims to add £4bn a year to UK High Street by 2020 by leveraging ‘local search’ - InternetRetailing</a></li>
+      <li><a href="http://lancasterfoodloopgame.weebly.com/" target="_blank">Encouraging Local Spend Through the Creation of Local Money Loops</a></li>
+      <li><a href="https://www.colu.com/" target="_blank">Local Currency - Colu</a></li>
+      <li><a href="https://www.theguardian.com/commentisfree/2017/feb/08/take-back-control-bottom-up-communities" target="_blank">This is how we take back control: from the bottom up | George Monbiot</a></li>
+      <li><a href="http://www.criticalpracticechelsea.org/wiki/index.php?title=Proposal_for_Local_Currency" target="_blank">Proposal for Local Currency</a></li>
+      <li><a href="http://bristolpound.org/what" target="_blank">Bristol Pound - Our City. Our Money</a></li>
+
+    </ul>
+  </section>
+  <section class="related-project">
+    <h1>
+      Related experiments
+    </h1>
+    <h2>We believe technology should work for people and communities, not against them
+</h2>
+    <ul>
+      <li>
+        <a href="../financial-freedom/">Financial freedom through early planning</a>
+      </li>
+      <li>
+        <a href="../connected/">Everything is connected</a>
+      </li>
+      <li>
+        <a href="./">Keeping money local</a>
+      </li>
+      <li>
+        <a href="../after-work/">Life after work</a>
+      </li>
+      <li>
+        <a href="../washing-service/">Washing as a service</a>
+      </li>
+      <li>
+        <a href="../safer-emails/">Sending safer emails</a>
+      </li>
+    </ul>
+    <h2>We believe that people should work together to support each other
+</h2>
+    <ul>
+      <li>
+        <a href="../shared-energy/">Cheaper, greener energy</a>
+      </li>
+      <li>
+        <a href="../group-trust/">Protecting your stuff</a>
+      </li>
+      <li>
+        <a href="../connected/">Everything is connected</a>
+      </li>
+    </ul>
+  </section>
+  </section>
+
+    <div id="wip">This is a work in progress: <a href="https://docs.google.com/a/coopdigital.co.uk/forms/d/e/1FAIpQLSeD4Fbz0-RI8ltn_cuP7Xrcce4gr5hAEn0saGV_ELoAvL3oQw/viewform?usp=sf_link" target="_blank">Give feedback</a></div>
+  </body>
+</html>

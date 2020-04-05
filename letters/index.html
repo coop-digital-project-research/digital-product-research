@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <title>Letters | Digital Product Research</title>
+    <meta name="description" content="Could we match people who are in debt with people who have already been through it? We built an experiment to see whether people would write physical letters of support.">
+    <meta name="author" content="Digital Product Research team at Co-op Digital">
+    <link href="../Assets/favicon.ico" rel="icon" type="image/ico" />
+    <link href="../stylesheets/site.css" rel="stylesheet" />
+    <script src="../javascripts/all.js"></script>
+  </head>
+
+  <body class="letters letters_index">
+    <header id="topnav">
+
+      <?xml version="1.0" encoding="UTF-8"?>
+      <svg id="coop-logo" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="coop-logo-shape" transform="translate(0.000000, -66.000000)" fill-rule="nonzero">
+                  <g transform="translate(0.000000, 66.000000)">
+                      <g id="logo-copy">
+                          <path d="M19.688057,6.83669609 C19.8975045,6.11727617 20,5.37137453 20,4.61223203 C20,3.85750315 19.8930481,3.10718789 19.688057,2.39218159 C19.416221,1.49180328 18.7522282,0.785624212 17.8698752,0.454602774 C17.0008913,0.154476671 16.0918004,0 15.1693405,0 C14.2468806,0 13.342246,0.154476671 12.473262,0.454602774 C11.5864528,0.790037831 10.9224599,1.4962169 10.6550802,2.39218159 C10.4456328,3.11601513 10.3386809,3.86633039 10.3386809,4.61664565 C10.3386809,5.36696091 10.4456328,6.11727617 10.6550802,6.84110971 C10.9224599,7.7370744 11.5864528,8.44325347 12.473262,8.77868852 C13.342246,9.07881463 14.2513369,9.2332913 15.1693405,9.2332913 C16.087344,9.2332913 16.9964349,9.07881463 17.8698752,8.77868852 C18.7566845,8.44325347 19.416221,7.7370744 19.688057,6.83669609 M17.0855615,4.61223203 C17.0855615,4.98297604 17.0276292,5.34489281 16.9206774,5.69356873 C16.7691622,6.16582598 16.3680927,6.52332913 15.8734403,6.61601513 C15.6461676,6.66015132 15.4099822,6.68221942 15.1737968,6.68221942 C14.9376114,6.68221942 14.701426,6.66015132 14.4741533,6.61601513 C13.9795009,6.51891551 13.5784314,6.16582598 13.4269162,5.69356873 C13.315508,5.34489281 13.2620321,4.98297604 13.2620321,4.61223203 C13.2620321,4.24148802 13.3199643,3.87515763 13.4269162,3.53089533 C13.5784314,3.05863808 13.9795009,2.70113493 14.4741533,2.60844893 C14.701426,2.56431274 14.9376114,2.54224464 15.1737968,2.54224464 C15.4144385,2.54224464 15.6461676,2.56431274 15.8734403,2.60844893 C16.3680927,2.70554855 16.7691622,3.05863808 16.9206774,3.53089533 C17.0276292,3.87957125 17.0855615,4.24590164 17.0855615,4.61223203 M9.34937611,16.7099622 C9.55882353,15.9905422 9.66131907,15.2446406 9.66131907,14.4854981 C9.66131907,13.7307692 9.5543672,12.980454 9.34937611,12.2654477 C9.07754011,11.3650694 8.41354724,10.6588903 7.5311943,10.3278689 C6.65775401,10.0277427 5.75311943,9.87326608 4.83065954,9.87326608 C3.90819964,9.87326608 3.00356506,10.0277427 2.13458111,10.3278689 C1.24777184,10.6588903 0.583778966,11.3650694 0.316399287,12.2654477 C0.106951872,12.9848676 0,13.7351828 0,14.4854981 C0,15.2358134 0.106951872,15.9861286 0.316399287,16.7099622 C0.583778966,17.6059269 1.24777184,18.3121059 2.13458111,18.647541 C3.00356506,18.9476671 3.91265597,19.1021438 4.83065954,19.1021438 C5.7486631,19.1021438 6.65775401,18.9476671 7.5311943,18.647541 C8.41354724,18.3121059 9.07754011,17.6059269 9.34937611,16.7099622 M6.74688057,14.4854981 C6.74688057,14.8562421 6.68894831,15.2181589 6.58199643,15.5668348 C6.43048128,16.0390921 6.02941176,16.3965952 5.53475936,16.4892812 C5.30748663,16.5334174 5.07130125,16.5554855 4.83511586,16.5554855 C4.59893048,16.5554855 4.3627451,16.5334174 4.13547237,16.4892812 C3.64081996,16.3921816 3.23975045,16.0390921 3.08823529,15.5668348 C2.97682709,15.2181589 2.92335116,14.8562421 2.92335116,14.4854981 C2.92335116,14.1147541 2.98128342,13.7484237 3.08823529,13.4041614 C3.23975045,12.9319042 3.64081996,12.574401 4.13547237,12.481715 C4.3627451,12.4375788 4.59893048,12.4155107 4.83511586,12.4155107 C5.07130125,12.4155107 5.30748663,12.4375788 5.53475936,12.481715 C6.02941176,12.5788146 6.43048128,12.9319042 6.58199643,13.4041614 C6.68894831,13.7528373 6.74688057,14.1147541 6.74688057,14.4854981 M6.74688057,4.59457755 L9.6657754,4.59457755 C9.6657754,3.8442623 9.55882353,3.10277427 9.35383244,2.38776797 C9.08199643,1.48738966 8.41800357,0.781210593 7.53565062,0.450189155 C6.65775401,0.154476671 5.75311943,0 4.83065954,0 C3.90819964,0 3.00356506,0.154476671 2.13458111,0.454602774 C1.24777184,0.785624212 0.583778966,1.49180328 0.316399287,2.39218159 C0.106951872,3.11601513 0,3.86191677 0,4.61223203 C0,5.36254729 0.106951872,6.11286255 0.316399287,6.83669609 C0.583778966,7.73266078 1.24777184,8.43883985 2.13458111,8.77427491 C3.00356506,9.07440101 3.91265597,9.22887768 4.83065954,9.22887768 C5.7486631,9.22887768 6.65775401,9.07440101 7.5311943,8.77427491 C8.41354724,8.44325347 9.07754011,7.7370744 9.34937611,6.83669609 C9.38502674,6.71311475 9.41622103,6.58953342 9.44741533,6.46153846 L6.69786096,5.19041614 C6.67112299,5.36254729 6.63101604,5.53026482 6.57754011,5.69356873 C6.42602496,6.16582598 6.02495544,6.52332913 5.53030303,6.61601513 C5.3030303,6.66015132 5.06684492,6.68221942 4.83065954,6.68221942 C4.59447415,6.68221942 4.35828877,6.66015132 4.13101604,6.61601513 C3.63636364,6.51891551 3.23529412,6.16582598 3.08377897,5.69356873 C2.97237077,5.34489281 2.91889483,4.98297604 2.91889483,4.61223203 C2.91889483,4.24148802 2.97682709,3.87515763 3.08377897,3.53089533 C3.23529412,3.05863808 3.63636364,2.70113493 4.13101604,2.60844893 C4.35828877,2.56431274 4.59447415,2.54224464 4.83065954,2.54224464 C5.06684492,2.54224464 5.3030303,2.56431274 5.53030303,2.60844893 C6.02495544,2.70554855 6.42602496,3.05863808 6.57754011,3.53089533 C6.68894831,3.87515763 6.74242424,4.23266078 6.74688057,4.59457755 M10.6550802,12.261034 C10.4456328,12.9848676 10.3386809,13.7351828 10.3386809,14.4854981 L10.3386809,21 L13.2575758,21 L13.2575758,14.4854981 C13.2575758,14.1147541 13.315508,13.7484237 13.4224599,13.4041614 C13.573975,12.9319042 13.9750446,12.574401 14.469697,12.481715 C14.6969697,12.4375788 14.9331551,12.4155107 15.1693405,12.4155107 C15.4099822,12.4155107 15.6417112,12.4375788 15.868984,12.481715 C16.3636364,12.5788146 16.7647059,12.9319042 16.916221,13.4041614 C17.0276292,13.7528373 17.0811052,14.1191677 17.0811052,14.4854981 C17.0811052,14.8562421 17.0231729,15.2181589 16.916221,15.5668348 C16.7647059,16.0390921 16.3636364,16.3965952 15.868984,16.4892812 C15.6417112,16.5334174 15.4055258,16.5554855 15.1693405,16.5554855 C14.9331551,16.5554855 14.6969697,16.5334174 14.469697,16.4892812 C14.3716578,16.4716267 14.2825312,16.4407314 14.1934046,16.4054224 L15.1827094,19.0977301 C16.0962567,19.0977301 17.0008913,18.9432535 17.8698752,18.6431274 C18.7522282,18.3121059 19.416221,17.6059269 19.688057,16.7055485 C19.8975045,15.9861286 20,15.240227 20,14.4810845 C20,13.7263556 19.8930481,12.9760404 19.688057,12.2566204 C19.416221,11.3562421 18.7522282,10.6500631 17.8698752,10.3190416 C16.9964349,10.0189155 16.0918004,9.86443884 15.1693405,9.86443884 C14.2468806,9.86443884 13.342246,10.0189155 12.473262,10.3190416 C11.5864528,10.6588903 10.9224599,11.3650694 10.6550802,12.261034" id="XMLID_8_"></path>
+                      </g>
+                  </g>
+              </g>
+          </g>
+      </svg>
+
+      <a href="../">Digital Product Research</a><span>We’re a team at Co-op Digital and this is the archive of our experiments&hellip; <a href="../about/">Read more</a></span>
+      <nav>
+        <span class='arrow-left'>&larr;</span>
+        <span class='arrow-right'>&rarr;</span>
+      </nav>
+    </header>
+    <article>
+  <section>
+
+    <header class="project-title">
+      <h1><span>Emotional support for people in debt</span></h1>
+      <time>October 2017</time>
+    </header>
+
+    <section class="situation">
+      <p>
+        People in debt often feel isolated. People who have got themselves out of debt wish they could support others who are in that situation.
+      </p>
+    </section>
+
+    <section class="complication">
+      <p>
+        Co-op has always stood for solidarity and self-help - helping people to help themselves in times of trouble. Could we bring these people together in a way that benefits all?
+      </p>
+      <h2>Talking about money is awkward, even when things are going well</h2>
+      <p>
+        When things aren’t going well, it’s even harder to broach the subject of debt. Read the comments on forums such as Debt Free Wannabe on moneysavingexpert.com and you’ll hear the same story. Loneliness and shame, not being able to talk to friends and family, and an inability to see past the here and now.
+      </p>
+
+      <p>
+        Giving financial advice is a tightly regulated industry. If Co-op was to help people who have experienced debt support each other, we’d have to stop them from giving financial advice - something best left to the professionals.
+      </p>
+    </section>
+
+    <section class="what-we-did">
+      <h2>People who help people</h2>
+      <p>
+        In previous research, we’d met two people who had got out of debt and then offered emotional and practical support to friends currently in debt. They were proud of the help they’d been able to give, and had found it a positive experience. Could Co-op do something to scale up this willingness to help?
+      </p>
+
+      <p>
+        We came up with Co-op Letters, a service for people who are in debt to receive letters from people who have previously been in debt.
+      </p>
+
+      <p>
+        We started with a hypothesis: We believe that connecting people who can emotionally support people in debt with those who want help will result in them feeling less ashamed and alone. We will know we’ve succeeded when we see a positive emotional change in those receiving the letters.
+      </p>
+
+      <p>
+        In the context of our current business activities, Co-op Letters is an unusual thing for Co-op to be doing. We wanted to learn how Co-op members would receive it and to learn what they would be happy to do to help each other when facilitated by a trusted mediator.
+      </p>
+
+      <h2>A handwritten letter</h2>
+
+      <p>
+        It’s a rare thing to get a handwritten letter. Personal communication happens electronically, via text, email or through social media. What lands on our doormats is almost always official correspondence, and for people in debt, a source of stress.
+      </p>
+
+      <p>
+        We were inspired by Jodi Ann Bickley and her Million Lovely Letters project. Since 2013, Jodi Ann has written over 4,000 letters of support to people around the world. We were also influenced by Postcrossing, a pen pal service that connects people by sending postcards.
+      </p>
+
+      <h2>Scaling self help</h2>
+
+      <p>
+        We posted an ad with a link to a brochure site on the Co-op members landing page.
+      </p>
+
+      <figure class="img-wide">
+        <img src="../Assets/Letters/join-in-advert.png" alt="The advert we posted on the Co-op Members landing page." />
+        <figcaption>
+          The advert on the Co-op members landing page
+        </figcaption>
+      </figure>
+
+      <p>
+        28 people got in touch to share the story of their debt and explain why they wanted to help someone else. Although these numbers were small, they gave us confidence that Co-op could connect people and help them them to support each other directly.
+      </p>
+
+      <h2>I want to write because...</h2>
+
+      <p>What we found in our interviews with people who had been in debt and had used that experience to help others was borne out by the responses to our ad.</p>
+
+      <blockquote>
+        <p>
+          I wasn’t the one in debt, my parents were. I want to give parents who are in debt the reassurance that they aren’t bad parents and they’re not letting their children down. I remember my mum being so upset when we had to sell our house to a company we now rent it off, thinking she’d let us kids down but we weren’t bothered as long as we were all together under the same roof.
+        </p>
+      </blockquote>
+
+      <blockquote>
+        <p>
+          I want to write to someone because I know how desperately isolating and terrifying it is to not have any money at all and to feel so desperate. You feel as if people will think badly of you even though the circumstances are sometimes beyond your control.
+        </p>
+      </blockquote>
+
+      <blockquote>
+        <p>
+          [I want to write because]... All my family and friends turned their back on me, my partner and our baby when it all happened and just to give someone that bit of hope that there are people out there who have been through it and come out the other side...
+        </p>
+      </blockquote>
+
+      <h3>Making awkward things OK</h3>
+
+      <p>
+        We found that people who had been in debt were happy to talk about it when it was in the past or under control. But when the debt is current and out of control, it is hard to acknowledge the problem and seek help, either practical or emotional. How could we encourage people in debt to overcome their feelings of embarrassment and sign up to receive a letter?
+      </p>
+
+      <aside class="experiment-live">
+        <figure class="mobile-frame">
+          <h2>Reaching out to people in debt:</h2>
+          <div class="frame">
+            <div class="embed">
+              <iframe width="375" height="667" frameborder="0" src="https://home2018.coopplatform.org/2017-09-19/"></iframe>
+            </div>
+          </div>
+        </figure>
+      </aside>
+
+      <p>
+        We posted another ad on the Co-op members landing page, and 35 people got in touch saying they were interested in receiving a letter. Thinking that people in debt would be harder to reach, we designed the ad so that participation would seem appealing and worth the effort.
+      </p>
+
+      <p>
+        Inspired by a talk on Hacking Shyness by Sebastian Deterding, we followed these principles for encouraging participation:
+      </p>
+      <ul>
+        <li>set clear rules for the interaction</li>
+        <li>explain what it is and what it isn’t</li>
+        <li>associate the interaction with a higher purpose so that there’s an excuse or reason to take part</li>
+        <li>give a starting point so that it’s easy to start the interaction</li>
+      </ul>
+
+      <p>
+        We also knew that for people to take part, they would need to trust the other participants, despite not knowing them. We took inspiration from the way Airbnb design for trust, by Joe Gebbia. In our ad we showed an example of a letter from someone who had experienced debt where they talk about themselves and tell their own debt story.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="question">
+          What are the risks of a service like this?
+        </h2>
+      <section class="answer">
+        <p>
+          We had to reduce the risks that could arise from the connections we facilitated between members. But we also wanted to take a platform-thinking approach to this service. A traditional approach would be to intercept every letter and check its quality. But the point of this experiment was to see what we could empower members to do for each other &mdash; at scale. Checking every letter would not be workable with more than a handful of participants.
+        </p>
+
+        <p>
+          We spoke to a contact from the Samaritans on how to reduce risk when working with vulnerable people. What we learned from this conversation helped us preempt some things that might go wrong and put policies in place to mitigate against risk.
+        </p>
+
+
+      </section>
+    </section>
+
+    <section>
+      <h2 class="question">Letter writers might give financial advice</h2>
+
+      <section class="answer">
+        <aside class="experiment-live">
+          <figure class="mobile-frame">
+            <h2>Try out the training:</h2>
+            <div class="frame">
+              <div class="embed">
+                <iframe width="375" height="667" frameborder="0" src="https://letters.coopplatform.org/sender/training-demo/"></iframe>
+              </div>
+            </div>
+          </figure>
+        </aside>
+        <p>
+          Our biggest worry was that the people who had been in debt themselves might, with the best of intentions, give financial advice. We wanted to avoid anyone recommending a specific course of action. Instead we wanted them to focus on giving emotional support by telling their own story.
+        </p>
+
+        <p>
+          As well as providing guidance for letter writers, we tackled this risk through a simple training quiz. We designed the training so that it was not possible to move on without passing the test.
+        </p>
+      </section>
+    </section>
+
+    <section>
+      <h2 class="question">
+         The service might have a negative impact on people’s emotional state
+      </h2>
+
+      <section class="answer">
+
+        <p>
+          Being in debt means lots of chasing letters and emails and phonecalls. We agreed that we would limit our communications to the letter recipients to the minimum.
+        </p>
+
+        <p>
+          We agreed on another principle that every person in debt who signed up to receive a letter should receive one. We used our emails to the letter writers to make sure they understood that someone who was feeling vulnerable was expecting to get a letter from them. We designed the service with a reminders and nudges to letter writers to make sure they put pen to paper.
+        </p>
+
+        <p>
+          Mindful of our participants’ emotional wellbeing, we want to make sure the experience of leaving the service was a good one. On leaving the service we wanted every participant to understand that:
+        </p>
+        <ul>
+          <li>their investment of time and emotional energy is acknowledged and valued</li>
+          <li>the service is coming to an end</li>
+          <li>we will not hold onto their data (and that their Co-op membership is not affected)</li>
+          <li>expert help about debt is available (Step Change, Citizen’s Advice et al)</li>
+        </ul>
+
+      </section>
+    </section>
+
+    <section>
+      <h2 class="question">
+        Letter writers might feel overwhelmed
+      </h2>
+
+      <section class="answer">
+        <p>There were a few options for facilitating the match between letter writer and the person receiving a letter. We decided to let the person receiving a letter read the profiles and then pick up to three letter writers.</p>
+
+        <p>
+          This meant we could make sure that the responsibility for writing letters was spread evenly, and that there was a back up letter writer if the first one dropped out.
+        </p>
+      </section>
+    </section>
+
+    <section>
+      <h2>We might expose more sensitive data than is necessary </h2>
+
+      <section class="answer">
+        <p>
+          We worried about sharing people’s addresses. At first we assumed all letters should be forwarded via Co-op. In the end we decided to let participants decide for themselves. We asked them for their address, and whether they’d like to receive letters directly or forwarded via Co-op. Most people opted not to share their address &mdash; but not everyone.
+        </p>
+
+        <p>
+          We were also concerned about holding personally identifiable information. We got around this by building the service on Django on an AWS box. This allowed us to get quickly build a service without storing personal information. Anything identifiable was held in a spreadsheet held in a secure location. Within the service, the participants were only identified by a unique reference number.
+        </p>
+      </section>
+    </section>
+
+      <section class="learning">
+
+        <h2>People who have been in debt want to support people who are in debt</h2>
+
+        <p>In our initial interviews with people thinking about retirement and what we learned from people who signed up to write letters, we found that people who had been in debt themselves were keen to help others facing a similar situation.</p>
+
+        <p>We used the Co-op members landing page to recruit participants, so everyone involved was a Co-op member. It’s unclear whether Co-op membership was a factor in wanting to help, people were more motivated by the shared experience of debt.</p>
+
+        <h2>People like the idea of writing a letter, but it’s hard to get round to it</h2>
+
+        <p>Out of the people who expressed an interest in writing a letter and receiving a letter, we managed to match seven readers and writers. However, none of the people who said they would write managed to send one (as far as we know).</p>
+
+        <p>Although this result was disappointing, it told us that Co-op members were willing to emotionally support other members in debt, but that the commitment of writing a letter and posting it was too great.</p>
+
+        <h2>Talking about talking about debt seems to be helpful</h2>
+
+        <p>One unexpected result from this experiment was a response from one participant — a reader — who got in touch with us to let us know that he no longer wanted to take part.</p>
+
+        <p>This was because seeing our ad and signing up to take part had been a prompt for him to review his financial situation and work out a budget and a plan for getting his debt under control within a few months.</p>
+
+
+
+        <!--People who are in debt appreciate emotional support around a taboo topic-->
+
+        <!--We can find a supply and a demand and facilitate an interaction between strangers around a charged topic such as debt-->
+
+        <!--We can decentralise some risk by designing a service for trust and responsibility-->
+
+        <!--Don&rsquo;t yet know whether the service end-to-end has helped writers or readers emotionally-->
+
+        <!--Add in something about the one person who got in touch about what they had done-->
+
+
+      </section>
+
+    </section>
+  </section>
+</article>
+
+
+<section class="methods">
+  <div>
+    <h1>How we ran this experiment</h1>
+    <h2>Concierging a service</h2>
+<p>
+  We learn how services should work by faking it. &lsquo;Concierging&rsquo; a service means doing all the tasks that would normally be automated - things like copy-pasting emails and updating database fields. As new needs arise we design and build the service on the fly. This way we learn what the service should actually do for itself, one feature at a time.
+</p>
+
+<p>
+  It&rsquo;s a principle we believe strongly in; it&rsquo;s hard to know what to automate until you&rsquo;ve done it yourself a few times. Writing code isn&rsquo;t cheap or fast, so it&rsquo;s wasteful to make the wrong thing and throw it away.
+</p>
+
+  </div>
+</section>
+
+<section class="what-next">
+  <section class="view-experiment">
+    <a class="experiment-link" href="http://scout-dashboard.digitalproductresearch.org.uk/1.html" target="_blank">Open experiment in a new window</a>
+  </section>
+  <section class="further-reading">
+    <h1>Further reading</h1>
+    <ul>
+      <li>Run your own letter writing platform - <a href="https://github.com/coopdigital/coop-platform-letters-django" target="_blank">take a look at this project on GitHub</a></li>
+      <li><a href="https://www.ted.com/talks/joe_gebbia_how_airbnb_designs_for_trust" target="_blank">Airbnb on how they design for trust</a></li>
+      <li><a href="https://www.youtube.com/watch?v=dfk1q7z2FKk">Hacking Shyness</a></li>
+      <li><a href="http://paulgraham.com/ds.html" target="_blank">Do things that don’t scale</a></li>
+      <li><a href="https://www.amazon.co.uk/Ends-overlook-products-services-shouldnt/dp/9163936445/p/9163936445/ref=sr_1_1" target="_blank">Ends by Joe Macleod</a></li>
+      <li><a href="https://onemillionlovelyletters.com/" target="_blank">One million lovely letters</a></li>
+      <li><a href="https://www.postcrossing.com/" target="_blank">Postcrossing</a></li>
+
+    </ul>
+  </section>
+  <section class="related-project">
+    <h1>
+      Related experiments
+    </h1>
+    <h2>We believe technology should work for people and communities, not against them
+</h2>
+    <ul>
+      <li>
+        <a href="../financial-freedom/">Financial freedom through early planning</a>
+      </li>
+      <li>
+        <a href="../after-work/">Life after work</a>
+      </li>
+      <li>
+        <a href="../locally/">Keeping money local</a>
+      </li>
+      <li>
+        <a href="../shared-energy/">Cheaper, greener energy</a>
+      </li>
+      <li>
+        <a href="../washing-service/">Washing as a service</a>
+      </li>
+      <li>
+        <a href="../safer-emails/">Sending safer emails</a>
+      </li>
+    </ul>
+    <h2>We believe people should understand and have control over the technology they use
+</h2>
+    <ul>
+      <li>
+        <a href="../terms/">Terms and reviewers</a>
+      </li>
+      <li>
+        <a href="../safer-emails/">Sending safer emails</a>
+      </li>
+    </ul>
+  </section>
+  </section>
+</section>
+
+    <div id="wip">This is a work in progress: <a href="https://docs.google.com/a/coopdigital.co.uk/forms/d/e/1FAIpQLSeD4Fbz0-RI8ltn_cuP7Xrcce4gr5hAEn0saGV_ELoAvL3oQw/viewform?usp=sf_link" target="_blank">Give feedback</a></div>
+  </body>
+</html>

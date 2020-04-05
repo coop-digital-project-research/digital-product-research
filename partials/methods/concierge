@@ -1,0 +1,8 @@
+<h2>Concierging a service</h2>
+<p>
+  We learn how services should work by faking it. &lsquo;Concierging&rsquo; a service means doing all the tasks that would normally be automated - things like copy-pasting emails and updating database fields. As new needs arise we design and build the service on the fly. This way we learn what the service should actually do for itself, one feature at a time.
+</p>
+
+<p>
+  It&rsquo;s a principle we believe strongly in; it&rsquo;s hard to know what to automate until you&rsquo;ve done it yourself a few times. Writing code isn&rsquo;t cheap or fast, so it&rsquo;s wasteful to make the wrong thing and throw it away.
+</p>

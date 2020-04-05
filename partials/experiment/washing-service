@@ -1,0 +1,112 @@
+<article>
+  <section>
+    <header class="project-title">
+      <h1><span>Washing as a service</span></h1>
+      <time>October 2016</time>
+    </header>
+
+    <section class="situation">
+      <p>
+        Good washing machines are expensive, and cheaper ones aren’t always reliable and prove expensive in the long term.
+      </p>
+    </section>
+
+    <section class="complication">
+      <h2>Pay weekly on the high street</h2>
+      <p>
+        The alternative, especially for people on low incomes, is to buy a washing machine using finance, often at a high rate of interest.
+      </p>
+      <h2>Rent or buy</h2>
+      <p>
+        People’s attitudes to ownership are changing. We believe that renting will be more popular in the future. However domestic appliance rental companies have disappeared from the high street.
+      </p>
+    </section>
+
+    <section class="question">
+      <h2>
+        Would people sign up for a subscription service for their washing?
+      </h2>
+    </section>
+
+    <aside class="experiment-live">
+      <figure class="mobile-frame">
+        <h2>Try our experiment:</h2>
+        <div class="frame">
+          <div class="embed">
+            <iframe width="375" height="667" frameborder="0" src="https://www.washify.co.uk/how-it-works.html"></iframe>
+          </div>
+        </div>
+        <figcaption>
+          We built a website to promote our washing service offer
+        </figcaption>
+      </figure>
+    </aside>
+
+    <section class="what-we-did">
+      <h2>We promoted a washing subscription service to see how people responded</h2>
+      <p>
+        We prototyped Washify - a subscription washing machine service that included a 48hr repair or replace service and a regular delivery of laundry liquid. We tested the concept with 5 landlords and 12 potential customers.
+      </p>
+
+      <figure>
+        <img src="/Assets/Washify/lab-testing.jpg" alt="One of our team testing our prototype with a landlord and another observing remotely" />
+        <figcaption>
+          We set up a basic user testing lab
+        </figcaption>
+      </figure>
+
+    <section class="question">
+      <p>
+        We thought there was something interesting in the often painful relationship between landlords and tenants. So we wondered how we might make that relationship better.
+      </p>
+      <h2>
+        Would landlords use a service like this to provide a washing service for their tenants?
+      </h2>
+    </section>
+
+    <section class="learning">
+      <h3>Landlords were not interested in renting</h3>
+      <p>
+        We learned that Washify was not attractive to landlords. They preferred to use local people to maintain their properties and saw our proposition as expensive. However tenants were interested in the subscription model, due to the low cost and ease of maintenance.
+      </p>
+
+    </section>
+
+          <aside>
+          <figure>
+            <img src="/Assets/Washify/google-ad.png" alt="An image of a google ad targeting tenants that directs people to the Washify website" />
+            <figcaption>
+              An example ad promoting the Washify offer
+            </figcaption>
+          </figure>
+        </aside>
+
+      <h2>People with a job to be done</h2>
+      <p>
+        Through Google advertising we were able to reach people at the point where they were looking for a solution to a problem: they had a broken washing machine and a pile of dirty washing on the floor. This was the perfect time to talk to them about our offer and we learned that it compared very well against the alternative options available.
+      </p>
+
+            <blockquote>
+              <p>
+                This way seems cheaper and more convenient than the laundrette even though the laundrette is only a 1 minute walk away.
+              </p>
+              <footer>-
+                <cite>
+                  Tenant who wanted to rent a washing machine as their landlord would not replace a broken one
+              </cite>
+              </footer>
+            </blockquote>
+
+      </section>
+
+      <section class="next-steps">
+
+        <h2>Where we want to go next</h2>
+
+        <p>
+          We think that understanding in more detail how tenants could use Washify would be a useful next step. The best way to do this might be a small scale pilot in a local area.
+        </p>
+
+      </section>
+  </section>
+</article>

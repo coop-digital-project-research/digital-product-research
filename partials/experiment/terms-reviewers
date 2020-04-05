@@ -1,0 +1,258 @@
+<article>
+  <section>
+
+    <header class="project-title">
+      <h1><span>Terms and reviewers</span></h1>
+      <time>December 2016</time>
+    </header>
+
+    <section class="situation">
+      <h2>‘Smart’ or safe?</h2>
+      <p>
+        More of the things we buy for our homes connect to the internet. Part of the installation of these devices involves agreeing to terms and conditions - and the sneaky clauses that allow our privacy to be compromised.
+      </p>
+    </section>
+    <section class="complication">
+      <h2>Deciding which TV to buy is hard enough</h2>
+      <p>
+        People don’t take data security into account when buying connected devices. Product reviews and press coverage about new products focus on features and specifications, not privacy and invasive, confusing terms and conditions.
+      </p>
+    </section>
+    <section class="what-we-did">
+      <h2>Influencing consumers by influencing journalists</h2>
+      <p>
+        We wanted to find out if we could encourage the journalists who write product reviews to focus on security by showing them the dodgy clauses in manufacturers’ terms and conditions.
+      </p>
+
+      <p>
+        We showed five journalists and reviewers a prototype of Legalease, a community-driven terms and conditions analysis site where contributors annotate legal terms and leave questions for manufacturers to answer.
+      </p>
+    </section>
+
+    <aside class="experiment-live desktop-embed">
+      <figure>
+        <div>
+          <iframe width="100%" height="600" frameborder="0" src="https://coopdigital.github.io/legalease/"></iframe>
+        </div>
+        <figcaption>
+          We built Legalease to test whether we could get journalists to talk about how secure products are when they review them
+        </figcaption>
+      </figure>
+    </aside>
+
+    <section class="question">
+      <h2>How do journalists write stories?</h2>
+    </section>
+
+    <section class="answer">
+      <h3>Somewhere on the scale between objectivity and subjectivity</h3>
+      <p>
+        Different publications have different approaches. One of the journalists we spoke to carried out repeatable, objective experiments to decide which product was best. Another wrote for a site where personal and political opinions are encouraged, and was able to bring his own views into his reviews.
+      </p>
+
+      <blockquote>
+        <p>
+          I love the fact that I’m able to write about stories that I care about personally. That I’m able to use my own opinion.
+        </p>
+        <p>
+          I’m also able to occasionally put my political slant on it, I think Brexit is a terrible idea… I wrote a story about a story that the iPhone is going to cost 20% more because of Brexit.
+        </p>
+        <footer>-
+          <cite>
+            M, technology journalist, writes for a technology news website
+          </cite>
+        </footer>
+
+      </blockquote>
+
+
+
+      <h3>Using personal and professional relationships to understand complex issues</h3>
+
+      <p>
+        The journalists we spoke to used different sources for their stories: PR agencies, manufacturers, their own research, awareness of trends through personal contacts and online communities (Reddit). Some were happy to be contacted by PR companies and manufacturers. Others deliberately avoided them, only contacting them to give them a chance to respond to a negative story.
+      </p>
+
+      <blockquote>
+        <p>
+          I’ve seen PR companies get better at what they do&hellip; Generally products and stories get pitched. Could be research, tip or physical product.
+        </p>
+        <footer>-
+          <cite>
+            M, technology journalist, writes for a technology news website
+          </cite>
+        </footer>
+      </blockquote>
+
+      <blockquote>
+        <p>
+          If I was researching a story about this probably the first place I’d start is on Twitter I’d say “does anybody have a smart TV?” link to the privacy policy - “does it concern you?”.
+        </p>
+        <p>
+          One cultivates individuals in companies, contacts and one also sometimes you know very often you formally deal with a press team to get comment generally on stories which are adverse to them or where you’d be compromising into your contact to quote or whatever, to some extent you have to protect your sources … but again that’s just journalism.
+        </p>
+        <footer>-
+          <cite>
+            C, freelance technology journalist, writes for national newspapers
+          </cite>
+        </footer>
+      </blockquote>
+
+      <blockquote>
+        <p>
+          If there’s a particularly troubling part of the Ts and Cs, I would get in touch with the manufacturer, I’d ask them to clarify it.
+        </p>
+        <p>
+          Occasionally a great place to find breaking news is Twitter and Reddit, but you have to be extremely careful when using those sources. So you have to make the effort to corroborate it.
+        </p>
+        <footer>-
+          <cite>
+            M, technology journalist, writes for a technology news website
+          </cite>
+        </footer>
+      </blockquote>
+
+
+    </section>
+
+    <section class="question">
+      <h2>How do journalists measure their impact?</h2>
+    </section>
+
+    <section class="answer">
+      <blockquote class="pull-quote">
+        <p>
+          <span>
+            They did not talk about seeing any kind of change in consumer behaviour based on what they had written
+          </span>
+        </p>
+      </blockquote>
+      <p>
+        The journalists we spoke to talked about the impact of their articles in terms of metrics (page views), and reactions on social media. They did not talk about seeing any kind of change in consumer behaviour based on what they had written.
+      </p>
+      <blockquote>
+        <p>
+          &hellip;I rely on [Twitter] most in terms of trying to gauge reaction&hellip; feedback and comments on articles is not necessarily a robust method of measuring&hellip; Commenters are in general are sort of 1% or less of readers&hellip; The average value in most of the comments made is absolutely zero.
+        </p>
+        <footer>-
+          <cite>
+            C, freelance technology journalist, writes for national newspapers
+          </cite>
+        </footer>
+      </blockquote>
+      <blockquote>
+        <p>
+          Obviously you’ve got statistics - you’ve got Google Analytics - that show how the page has done&hellip; and you’ve got other less data driven ways of telling how well a piece has done, comments, feedback, I quite often get emails from people saying, what a great piece that was or what a terrible piece that was.
+        </p>
+        <footer>-
+          <cite>
+            M, technology journalist, writes for a technology news website
+          </cite>
+        </footer>
+      </blockquote>
+
+    </section>
+
+    <section class="question">
+      <h2>Did the journalists take to our product?</h2>
+    </section>
+
+    <section class="answer">
+      <blockquote class="pull-quote">
+        <p>
+          <span>
+            &hellip;they wanted to hear from experts and others with authority
+          </span>
+        </p>
+      </blockquote>
+
+      <p>
+        They recognised it for what we intended it to be. The user comments highlighted ambiguity, but they didn’t find that useful. They were concerned about the validity of contributors; they wanted to hear from experts and others with authority.
+      </p>
+      <blockquote>
+        <p>
+          I’m not a lawyer, and not qualified to independently offer analysis of a legal text.
+        </p>
+        <p>
+          Erm. I think, if there’s some sort of hover over JaneS’s profile and see that she was a lawyer or student lawyer or that she’s a security advocate. Verified profiles would be cool, like Twitter.
+        </p>
+        <p>
+          If someone’s going to be highlighting the most important parts of the Ts and Cs, the assumption is that they are qualified and they are competent to do that because they could get it wrong or miss something.
+        </p>
+        <footer>-
+          <cite>
+            M, technology journalist, writes for a technology news website
+          </cite>
+        </footer>
+
+      </blockquote>
+      <p>
+        Some of the people we spoke to felt that their audiences were not interested in data privacy unless it affected them in a tangible way, such as losing money or being annoyed by targeted ads.
+      </p>
+      <blockquote>
+        <p>
+          People tend to approach tech products with blind faith, that they do what they say they do.
+        </p>
+        <footer>-
+          <cite>
+            M, technology journalist, writes for a technology news website
+          </cite>
+        </footer>
+      </blockquote>
+
+    </section>
+
+    <section class="question">
+      <h2>
+        Could we encourage product reviewers to talk about privacy and security?
+      </h2>
+    </section>
+
+    <section class="answer">
+      <blockquote class="pull-quote">
+        <p>
+          <span>
+            They wanted to see stronger expert opinions and summaries
+          </span>
+        </p>
+      </blockquote>
+
+      <p>
+        No - not like this. It was clear what Legalease was for. However, participants’ reactions were mixed as to whether it was something they’d use during their writing process. They wanted to see stronger expert opinions and summaries (as opposed to commentary and questions) and worried about how qualified the contributors were.
+      </p>
+    </section>
+    <figure>
+      <img src="/Assets/Legalease/guardian-story.png" alt="Screenshot of Guardian headline: Children in England sign over digital rights regularly and unknowingly" />
+      <figcaption>
+        Data privacy does make the headlines, but not often
+      </figcaption>
+    </figure>
+
+    <section class="learning">
+
+      <h2>
+        The story isn’t the lack of privacy, it’s the manifestation of that lack of privacy
+      </h2>
+
+      <blockquote class="pull-quote">
+        <p>
+          <span>
+            &hellip;being bombarded by targeted ads, concerns about being ‘ripped off’
+          </span>
+        </p>
+      </blockquote>
+
+
+      <p>
+        Some of the journalists we spoke to perceived their audience as either not caring about privacy issues, or being resigned to a lack of privacy. What does motivate their readers however are the more obvious, less conceptual problems - being bombarded by targeted ads, concerns about being ‘ripped off’. Our goal should be to connect the more abstract issues around data protection and privacy to the real-world manifestations of those issues. Only then should we explain why these annoying things keep happening - and in plain, everyday language.
+      </p>
+
+    </section>
+    <figure>
+      <img src="/Assets/Legalease/performance-art.png" alt="Tweet with photo of woman reading some terms and conditions" />
+      <figcaption>
+        The Norwegian Consumer Council stage a live reading of terms and conditions
+      </figcaption>
+    </figure>
+  </section>
+</article>

@@ -1,0 +1,126 @@
+<article>
+  <section>
+
+    <header class="project-title">
+      <h1><span>Subscription to light</span></h1>
+      <time>May 2017</time>
+    </header>
+
+    <section class="situation">
+      <p>
+        Community energy groups have a track record for raising investment from their members to install solar farms or wind turbines in their communities.
+      </p>
+      <p>
+    </section>
+    <section class="complication">
+      <p>
+        Since the drop in the feed-in tariff (the government incentive for generating renewable power), these sorts of schemes are no longer financially viable.
+      </p>
+      <p>
+        We think that they could raise investment for different sorts of energy services, potentially at a better rate than institutional capital.
+      </p>
+    </section>
+
+    <section class="question">
+      <h2>A new business model for community energy?</h2>
+      <p>
+        We modelled Light House: a way for community energy groups to raise money to help households living in fuel poverty to swap their bulbs for light emitting diode (LED) lightbulbs.
+      </p>
+
+    </section>
+    <aside class="experiment-live">
+      <figure class="mobile-frame">
+        <h2>Try our experiment:</h2>
+        <div class="frame">
+          <div class="embed">
+            <iframe width="375" height="667" frameborder="0" src="https://lighthouse.powerpack.org.uk/for-housing-associations/"></iframe>
+          </div>
+        </div>
+        <figcaption>
+          We built a website to test out a community energy group funded LED lightbulb subscription service
+        </figcaption>
+      </figure>
+    </aside>
+
+    <section class="answer">
+      <h2>Light House: an LED lightbulb subscription service</h2>
+      <p>
+        LED light bulbs use a 10th of the energy of old fashioned ones. Switching all the bulbs in your house could save you over £100 a year.
+      </p>
+      <p>
+        That said, LED bulbs are relatively expensive. Refitting out a whole house costs somewhere in the region of £100 and so many households living in fuel poverty haven’t switched. In other words, those that could benefit the most, haven’t got the money.
+      </p>
+      <p>
+        For £1 a week, Light House could offer these homes 20 LED light bulbs. After 3 years, they would own the bulbs.
+      </p>
+      <p>
+        The capital to fund the programme would be raised by community energy companies, with no banks involved. The money would be lent by the community and stay where it belonged: in the community.
+      </p>
+      <p>
+        We created this model in collaboration with the community energy group Sheffield Renewables. We tested our early assumptions by talking to people working in and attending food banks. We then developed a proposition for Light House, and went door to door in a housing estate owned by Bromford Housing Association in Lichfield, Staffordshire.
+      </p>
+
+    </section>
+    <aside>
+      <figure>
+        <img src="/Assets/Lighthouse/door-knocking-1.jpg" alt="Photo showing a researcher knocking on the door of a house" />
+      <figcaption>
+         We spoke to 14 households who were tenants of Bromford Housing Association on their doorsteps in Lichfield
+      </figcaption>
+      </figure>
+    </aside>
+
+      <section class="learning">
+
+        <h2>
+          Hyper-awareness of short-term saving
+        </h2>
+        <p>
+          From talking to people at a food bank, we found that some people in fuel poverty were highly conscious of their energy use and had developed tactics to reduce it (such as only having one light on at a time). We also found that most people had heard of energy saving (compact fluorescent lamp or CFL) bulbs and were using them at home. In contrast, not many people had heard of LED bulbs.
+        </p>
+        <aside>
+          <figure>
+            <img src="/Assets/Lighthouse/3-homes-graphic.png" alt="Graphic showing three homes with different levels of energy usage" />
+          <figcaption>
+             To get an idea of energy use without too much complexity, we asked people to point to the household which reminded them most of theirs.
+          </figcaption>
+          </figure>
+        </aside>
+
+        <h2>
+          Small properties don’t have many fittings
+        </h2>
+        <p>
+          When we spoke to housing association tenents, we didn't find anyone who would need the 20 bulbs that was on offer in our proposition.
+        </p>
+        <h2>
+          Not much awareness of LED bulbs
+        </h2>
+        <p>
+          People had heard of LED bulbs in other contexts, such as car lights. When people had heard of LEDs for use in the home, they thought they were only available for ceiling spot lights.
+        </p>
+        <aside>
+          <figure>
+            <img src="/Assets/Lighthouse/households-flyer.png" alt="Flyers used to promote the Light House scheme" />
+          <figcaption>
+            We used flyers to promote and explain Light House amongst houseing association tenents in Lichfield
+          </figcaption>
+          </figure>
+        </aside>
+
+        <h2>
+          People thought mostly about the cost of the bulb rather than the cost of the energy to run it
+        </h2>
+        <p>
+          We found that people’s tactics for saving money were focused on the present, not the future. Many people spoke about light fittings that blew regularly, so they used incandescent bulbs for those fittings as they were cheap to replace. Others talked about buying incandescent bulbs for the low cost - despite the fact that this type of bulb is much more expensive in the long run.
+        </p>
+        <h2>
+          Bulbs are already very confusing
+        </h2>
+        <p>
+          Everyone we spoke to struggled to identify what types of bulbs they had. Most confused old-style incandescent bulbs with the newer, but similar looking, halogen bulbs.
+        </p>
+      </section>
+
+  </section>
+</article>
